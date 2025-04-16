@@ -1,0 +1,871 @@
+@import "../../../assets//theme/var";
+
+.hero-container {
+  width: 100%;
+  overflow: hidden;
+  // mix-blend-mode: difference;
+  // position: relative;
+  // background-color: yellowgreen;
+}
+
+video {
+  position: absolute;
+  // mix-blend-mode: difference;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  // background-color: green;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  // background-color: red;
+  margin-top: 125px;
+  margin-bottom: 125px;
+
+  // background-color: #000;
+  @media (max-width: 575px) {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  // @include theme() {
+  //   color: theme-get("textclr");
+  // }
+  // .video-file{
+  //   mix-blend-mode: difference;
+  // }
+
+  &__content {
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+    // background-color: burlywood;
+  }
+
+  &__welcome {
+    mix-blend-mode: difference;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 127px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 21px;
+    display: inline-block;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-bottom: 18px;
+
+    @media (max-width: 575px) {
+      // margin: 0 1rem;
+      padding: 0.8rem 1rem;
+    }
+  }
+
+  &__title {
+    // color: #fff;
+    // @include theme() {
+    //   color: theme-get("textclr");
+    // }
+    mix-blend-mode: difference;
+    color: white;
+    // width: 100%;
+    max-width: 567px;
+    text-align: center;
+    font-family: Joystix;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.2px;
+    margin-bottom: 1rem;
+
+    // font-family: Joystix;
+    // font-size: 2.5rem;
+    // font-weight: bold;
+    // line-height: 1.2;
+    // text-transform: uppercase;
+    // letter-spacing: 0.15em;
+    @media (max-width: 575px) {
+      font-size: 24px;
+      letter-spacing: -1.2px;
+    }
+  }
+
+  &__description {
+    mix-blend-mode: difference;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 2rem;
+    max-width: 353px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__button {
+    // background-blend-mode: hard-light;
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 2.25rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.trust-section {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  // background-color: blue;
+  @media (max-width: 575px) {
+    // display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .content {
+    // background-color: green;
+    color: green;
+    max-width: 600px;
+    @media (max-width: 575px) {
+      max-width: 316px;
+      text-align: center;
+    }
+
+    .title {
+      // margin-top: 150px;
+      // color: #fff;
+      font-family: Joystix;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.44px;
+
+      @media (max-width: 575px) {
+        font-size: 24px;
+        letter-spacing: -1.2px;
+      }
+      .sub-title {
+        font-family: Joystix;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.24px;
+        @media (max-width: 575px) {
+          padding-top: 10px;
+          font-family: Joystix;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.16px;
+        }
+      }
+    }
+
+    .details {
+      max-width: 400px;
+      margin-top: 16px;
+      // color: #d9d9d9;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      @include theme() {
+        color: theme-get("footertxtclr");
+      }
+    }
+  }
+
+  .cards {
+    position: relative;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    // max-width: 428px;
+    // height: 418px;
+    // background-color: red;
+    padding: 10px;
+    background-image: url("../../../assets/images/glow_bg.svg");
+    background-size: contain;
+    /* or 'contain' */
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    // width: 100%;
+    // height: 100%;
+    .glow-bg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // object-fit: cover;
+      z-index: -1;
+    }
+
+    video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1; // Ensure the video stays in the background
+      opacity: 0.5; // Adjust opacity for subtle effect
+    }
+
+    .parent-allTimeVolumeCard {
+      border-radius: 20px;
+
+      .allTimeVolumeCard {
+        position: relative;
+        width: 428px;
+        height: 200px;
+        border: 1px solid #3ebd61;
+        border-radius: 20px;
+
+        // background: linear-gradient(180deg, #141414 0%, #070707 100%);
+        .title {
+          position: absolute;
+          top: 27px;
+          left: 18px;
+          width: 120px;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        .value {
+          position: absolute;
+          bottom: 18px;
+          right: 30px;
+          text-align: center;
+          font-family: Inter;
+          font-size: 52px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: #fff;
+        }
+
+        @media (max-width: 479px) {
+          max-width: 325px;
+          height: 200px;
+
+          .value {
+            font-size: 36px;
+          }
+        }
+
+        @include theme() {
+          background: theme-get("cardbg");
+        }
+      }
+
+      @include theme() {
+        background: theme-get("cardbg");
+      }
+    }
+
+    .sub-cards {
+      display: flex;
+      gap: 10px;
+
+      .volumeCard {
+        position: relative;
+        width: 208px;
+        height: 200px;
+        border: 1px solid #3ebd61;
+        border-radius: 20px;
+
+        .title {
+          position: absolute;
+          top: 27px;
+          left: 18px;
+          width: 78px;
+          // text-align: center;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        .value {
+          position: absolute;
+          bottom: 18px;
+          right: 30px;
+          text-align: end;
+          font-family: Inter;
+          font-size: 52px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+
+        @media (max-width: 479px) {
+          width: 155px;
+          height: 150px;
+
+          .value {
+            font-size: 36px;
+          }
+        }
+
+        @include theme() {
+          background: theme-get("cardbg");
+        }
+      }
+    }
+  }
+}
+
+// products
+.products-grid {
+  // padding: 40px 0;
+  max-width: 1440px !important;
+
+  // background-color: yellow;
+  // color: white;
+  @media (max-width: 575px) {
+    max-width: 270px;
+    text-align: center;
+  }
+
+  .products-title {
+    margin-bottom: 80px;
+    max-width: 495px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2 {
+      // color: #fff;
+      text-align: center;
+      font-family: Joystix;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.44px;
+
+      @media (max-width: 575px) {
+        font-size: 24px;
+        letter-spacing: -1.2px;
+      }
+
+      // @include theme() {
+      //   color: theme-get("textclr");
+      // }
+    }
+
+    p {
+      color: #8c8c8c;
+      text-align: center;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .grid-container {
+    .grid-item {
+      margin-bottom: 20px;
+
+      .card {
+        position: relative;
+        border-radius: 20px;
+        // background-color: #0a0a0a;
+        border: 1px solid var(--Purple-Black, #0057ff);
+        //background: linear-gradient(180deg, #141414 0%, #070707 100%);
+        // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease;
+
+        @include theme() {
+          background: theme-get("cardbg_gradient");
+        }
+        @media (max-width: 575px) {
+          display: flex;
+          flex-direction: column;
+          justify-items: center;
+          justify-content: center;
+          height: 354px !important;
+          border: 1px solid #252211 !important;
+        }
+
+        .card-title {
+          font-size: 1.5rem;
+        }
+
+        .card-text {
+          font-size: 1rem;
+          margin-bottom: 20px;
+        }
+
+        .btn-primary {
+          background-color: #007bff;
+          border-color: #007bff;
+
+          &:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+          }
+        }
+
+        // .card_1 {
+        //   width: 100%;
+        //   height: 100%;
+        //   border-radius: 20px;
+        //   background: linear-gradient(180deg, #141414 0%, #070707 100%);
+        //   background-color: red;
+        // }
+        .network-card {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          // padding: 20px;
+          background-color: red;
+          border-radius: 20px;
+          //background: linear-gradient(180deg, #141414 0%, #070707 100%);
+          // background-image: url("RezorSwapBg.png");
+          color: white;
+          // box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+          position: relative;
+
+          @include theme() {
+            background: theme-get("headerbg");
+          }
+
+          .content-section {
+            margin-left: 80px;
+            max-width: 40%;
+            z-index: 3;
+
+            h2 {
+              font-size: 24px;
+              font-weight: bold;
+            }
+
+            h3 {
+              font-size: 20px;
+              margin-top: 10px;
+              margin-bottom: 20px;
+              font-weight: bold;
+            }
+
+            .description {
+              font-family: Inter;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-bottom: 20px;
+              // line-height: 1.5;
+              @include theme() {
+                color: theme-get("footertxtclr");
+              }
+            }
+
+            .explore-button {
+              font-size: 12px;
+              font-family: Inter;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              padding: 12px 36px;
+              background: linear-gradient(90deg, #0057ff 0%, #0043c6 100%);
+              color: white;
+              border: none;
+              border-radius: 6px;
+              cursor: pointer;
+              z-index: 3 !important;
+              position: relative;
+
+              &:hover {
+                background-color: #006bbd;
+              }
+            }
+          }
+
+          .icons-section {
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+            object-fit: cover;
+            // mix-blend-mode: difference;
+            // background-color: red;
+            // z-index: 1;
+
+            .background-video {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 20px;
+              object-fit: cover;
+              /* This makes sure the video covers the entire area without stretching */
+              z-index: 1;
+              /* Puts the video behind any other content */
+            }
+
+            // .icons-grid {
+            //   display: grid;
+            //   grid-template-columns: repeat(4, 1fr);
+            //   gap: 10px;
+
+            //   .icon-item {
+            //     width: 60px;
+            //     height: 60px;
+            //     background-color: #151a28;
+            //     border-radius: 50%;
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            //     font-size: 12px;
+            //     color: white;
+            //     box-shadow: 0px 0px 10px rgba(0, 130, 255, 0.5);
+            //   }
+            // }
+          }
+
+          @media (max-width: 575px) {
+            flex-direction: column;
+
+            // align-items: start;
+            .content-section {
+              margin-left: 0px;
+              max-width: 100%;
+              height: 100%;
+              margin-top: 34px;
+              margin-left: 32px;
+              margin-right: 32px;
+              justify-content: start;
+              text-align: left;
+            }
+
+            .icons-section {
+              .background-video {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 50%;
+                border-radius: 20px;
+                object-fit: cover;
+                /* This makes sure the video covers the entire area without stretching */
+                z-index: 1;
+                /* Puts the video behind any other content */
+              }
+            }
+          }
+        }
+
+        .logo-container {
+          position: relative;
+          margin-top: 73px;
+          margin-bottom: 20px;
+          // .glow-bg {
+          //   position: absolute;
+          //   width: 100%;
+          //   height: 100%;
+          //   background-color: red;
+          //   display: flex;
+          //   justify-content: center;
+          //   align-items: center;
+          //z-index: 3;
+          // }
+          @media (max-width: 575px) {
+            margin-top: 40px;
+          }
+        }
+
+        .logo {
+          position: relative;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          //background: url('home/products/Swap.png') no-repeat center center;
+          background-size: contain;
+        }
+
+        .card-body {
+          position: relative;
+          border-radius: 20px;
+          z-index: 2;
+
+          // background: linear-gradient(180deg, #141414 0%, #070707 100%);
+          // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/images/glow_hoverbg.svg");
+          // background-size: contain; /* or 'contain' */
+          // background-repeat: no-repeat;
+          // background-position: center center;
+          // @include theme() {
+          //   background: theme-get("cardbg_gradient");
+          // }
+          .glow-bg {
+            border-radius: 20px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // background-color: red;
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 1s ease-out !important;
+            // @include theme() {
+            //   background: theme-get("card_glow");
+            // }
+          }
+
+          .background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            z-index: 1; // Ensures the video stays in the background
+            pointer-events: none; // Prevent the video from blocking mouse events
+            opacity: 1; // Keep video fully visible when hovered
+          }
+        }
+
+        .card-title {
+          h2 {
+            font-size: 24px;
+            font-weight: 700;
+            // color: #ffffff;
+            margin-bottom: 10px;
+          }
+        }
+
+        .card-text {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 303px;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 30px;
+
+          @include theme() {
+            color: theme-get("footertxtclr");
+          }
+        }
+
+        .swap-btn {
+          position: relative;
+          background: linear-gradient(90deg, #0057ff 0%, #0043c6 100%);
+          border: none;
+          padding: 12px 36px;
+          border-radius: 8px;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          z-index: 3;
+        }
+
+        .swap-btn:hover {
+          background-color: #0056b3;
+        }
+
+        &.large {
+          .card-img-overlay {
+            // background: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+}
+
+.card-contain {
+  position: relative;
+  width: 300px;
+  /* Adjust the width as needed */
+  padding: 20px;
+  border-radius: 15px;
+  /* Match the border-radius to your card */
+  //background: #000000; /* Background color of the card */
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: inherit;
+    /* Inherit the border-radius from the parent */
+    padding: 3px;
+    /* Adjust the padding to control the thickness of the gradient border */
+    background: linear-gradient(180deg,
+        rgba(66, 95, 255, 0) 0%,
+        #4395ff 50%,
+        rgba(66, 95, 255, 0) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    pointer-events: none;
+    /* Ensure it doesn’t interfere with user interactions */
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Ensure the content is above the gradient border */
+    text-align: center;
+    /* Center the text content */
+    color: white;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+/////////////////////////////
+// src/components/SatiaScanCard.scss
+.satia-scan-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  border-radius: 20px;
+  // background-color: #f9f7ff;
+  border: 1px solid var(--Purple-Black, #0057ff);
+  //background: linear-gradient(180deg, #141414 0%, #070707 100%);
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+
+  @include theme() {
+    background: theme-get("card_icons_bg");
+  }
+
+  .card-icons {
+    position: relative;
+    mix-blend-mode: difference;
+    height: 100%;
+
+    .background-video {
+      position: absolute;
+      // border-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      top: 0;
+      left: 0;
+      padding-left: 1px;
+      padding-right: 1px;
+      padding-bottom: 1px;
+      // width: 100%;
+      height: 100%;
+      object-fit: cover; // Ensures the video covers the entire area without distortion
+      z-index: 1; // Ensures video is behind the text
+    }
+  }
+
+  .card-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 38px;
+    margin-left: 32px;
+    margin-right: 32px;
+    height: 50%;
+    z-index: 2; 
+
+    h2 {
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    p {
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      @include theme() {
+        color: theme-get("footertxtclr");
+      }
+    }
+
+    .explore-button {
+      width: 116px;
+      padding: 10px 20px;
+      background-color: #0085ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+
+
+      &:hover {
+        background-color: #006bbd;
+      }
+    }
+  }
+}
+
+.custom-card:hover .glow-bg,
+.custom-card:hover .swap-btn:hover .glow-bg {
+  opacity: 1 !important;
+}

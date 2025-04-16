@@ -1,0 +1,622 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./assets/theme/_var.scss";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+
+  @include theme() {
+    background-color: rgba(theme-get("textclr"), 0.1);
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: $gradient;
+  border-radius: 1rem;
+}
+@font-face {
+  font-family: "Joystix";
+  src: url("https://rezordex-deepak.s3.us-east-2.amazonaws.com/Fonts/joystix+monospace.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+
+  @include theme() {
+    color: theme-get("textclr");
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.titleHeading {
+  font-size: 2.4rem;
+  font-family: $font;
+  font-weight: 500;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+
+  @include theme() {
+    color: theme-get("textclr");
+  }
+
+  @media (max-width: 1679px) {
+    font-size: 2.2rem;
+  }
+
+  @media (max-width: 1499px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 1499px) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 1199px) {
+    font-size: 1.6rem;
+  }
+}
+
+.addCardBox {
+  @media (min-width: 1199px) {
+    padding-inline: 0.75rem;
+    // max-width: 109.425rem;
+    // width: 75%;
+  }
+
+  .addCard {
+    border-radius: 1.6rem;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2.4rem 3rem;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+
+    @media (max-width: 991px) {
+      padding: 1.8rem 2rem;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
+
+    @media (max-width: 575px) {
+      padding: 1.5rem 1.2rem;
+    }
+
+    @include theme() {
+      background: theme-get("secondryBg");
+    }
+
+    &_heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2.5rem;
+
+      .settingBtn {
+        padding: 0 0.2rem;
+        height: auto;
+
+        svg {
+          path,
+          circle {
+            @include theme() {
+              stroke: theme-get("textclr");
+            }
+          }
+        }
+      }
+    }
+
+    &_tokenvalues {
+      position: relative;
+
+      .activeCardtoken {
+        border-radius: 1rem;
+        background: $gradient;
+        padding: 2.3rem 1.8rem;
+
+        @media (max-width: 575px) {
+          padding: 2.5rem 1.4rem;
+        }
+
+        .listToken {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .common_input {
+              margin-bottom: 0;
+              flex: 0 0 50%;
+
+              &_inner {
+                input {
+                  height: 4rem;
+                  padding: 0 1rem 0 0;
+                  font-size: 2.4rem;
+                  font-weight: 500;
+                  line-height: 1;
+                  letter-spacing: 0.04rem;
+                }
+              }
+
+              &.inputActive {
+                input {
+                  color: $white;
+
+                  &::placeholder {
+                    color: $white !important;
+                  }
+
+                  &::-webkit-input-placeholder {
+                    color: $white !important;
+                  }
+
+                  &:-moz-placeholder {
+                    color: $white !important;
+                  }
+                }
+              }
+            }
+
+            .listRight {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              flex: 0 0 50%;
+
+              .maxBtn {
+                padding: 0.2rem 0.8rem;
+                height: 2.2rem;
+                background: $white;
+                color: $black;
+                font-size: 1.2rem;
+                margin-right: 0.9rem;
+              }
+            }
+
+            h6 {
+              font-family: $fontSecondry;
+              font-size: 1.6rem;
+              font-weight: 500;
+              line-height: 1;
+              text-transform: capitalize;
+
+              // color: $lightWhite;
+              @include theme() {
+                color: theme-get(textclrfade);
+              }
+
+              @media (max-width: 991px) {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+      }
+
+      .swapBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -2rem auto;
+        z-index: 1;
+        width: 5rem;
+        height: 5rem;
+        padding: 0;
+        border-radius: 50%;
+        border: 1px solid $white;
+        background: $darkBlue;
+        z-index: 1;
+
+        @media (max-width: 991px) {
+          width: 4rem;
+          height: 4rem;
+          padding: 1.2rem;
+          margin: -1.5rem auto;
+        }
+
+        @media (max-width: 575px) {
+          width: 3.4rem;
+          padding: 1rem;
+          height: 3.4rem;
+          margin: -1.2rem auto;
+        }
+
+        &::before {
+          content: unset;
+        }
+      }
+
+      .secondaryCardToken {
+        border-radius: 1rem;
+        border: 1px solid #ffffff1a;
+        background-blend-mode: overlay;
+        padding: 2.3rem 1.8rem;
+
+        @media (max-width: 575px) {
+          padding: 2.5rem 1.4rem;
+        }
+
+        @include theme() {
+          background: theme-get("cardfieldBg");
+        }
+
+        .listToken {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            .common_input {
+              margin-bottom: 0;
+              flex: 0 0 50%;
+
+              @media (max-width: 479px) {
+                flex: 0 0 35%;
+              }
+
+              &_inner {
+                input {
+                  height: 4rem;
+                  font-size: 2.4rem;
+                  font-weight: 500;
+                  line-height: 1;
+                  letter-spacing: 0.04rem;
+                  padding: 0 1rem 0 0;
+
+                  @include theme() {
+                    color: theme-get("textclr");
+                  }
+                }
+              }
+            }
+
+            .listRight {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              flex: 0 0 50%;
+
+              .maxBtn {
+                padding: 0.2rem 0.8rem;
+                height: 2.2rem;
+                font-size: 1.2rem;
+                margin-right: 0.9rem;
+
+                @include theme() {
+                  color: theme-get("textclr");
+                  background: theme-get("btn#303030");
+                }
+              }
+            }
+
+            h6 {
+              font-family: $fontSecondry;
+              font-size: 1.6rem;
+              font-weight: 500;
+              line-height: 1;
+              text-transform: capitalize;
+
+              @include theme() {
+                color: theme-get("whiteLight");
+              }
+
+              @media (max-width: 991px) {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .showBtn {
+      width: 100%;
+      margin: 1.9rem 0 1rem;
+      border: none;
+      background: transparent;
+      text-align: center;
+      font-family: Inter;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.2;
+      position: relative;
+      z-index: 1;
+      cursor: auto;
+
+      @include theme() {
+        color: theme-get("textclr");
+      }
+
+      &::before {
+        content: "";
+        width: 100%;
+        z-index: -1;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-blend-mode: overlay;
+
+        @include theme() {
+          background: theme-get("borderwhite0.1");
+        }
+      }
+
+      button {
+        border: none;
+        // outline: none;
+        padding: 0.4rem 1rem;
+        cursor: pointer;
+
+        @include theme() {
+          color: theme-get("textgray2");
+          background: theme-get("secondryBg");
+        }
+      }
+    }
+
+    &_valuesList {
+      overflow-x: clip;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.7rem 0;
+
+        &:first-child {
+          padding-top: 0;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+
+        label {
+          font-family: $font;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 1.2;
+          opacity: 0.6;
+
+          @include theme() {
+            color: theme-get("textclr");
+          }
+
+          @media (max-width: 479px) {
+            font-size: 1.2rem;
+            line-height: 1;
+          }
+        }
+
+        p {
+          font-family: $font;
+          font-size: 1.4rem;
+          font-weight: 500;
+          line-height: 1.2;
+          opacity: 0.6;
+
+          @include theme() {
+            color: theme-get("textclr");
+          }
+
+          @media (max-width: 479px) {
+            font-size: 1.2rem;
+            line-height: 1;
+          }
+        }
+      }
+    }
+
+    &_footer {
+      margin-top: 3rem;
+
+      .btnapprove {
+        height: 6rem;
+      }
+
+      p {
+        text-align: center;
+        font-family: $font;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+      }
+    }
+  }
+}
+
+table {
+  --bs-table-color: transparent;
+}
+
+.px-40 {
+  padding: 0 4rem;
+
+  @media (max-width: 1199px) {
+    padding: 0 3rem;
+  }
+
+  @media (max-width: 991px) {
+    padding: 0 2rem;
+  }
+
+  @media (max-width: 767px) {
+    padding: 0 1.5rem;
+  }
+}
+
+.warningNetwork {
+  padding: 2rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: $gradient;
+
+  h3 {
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 600;
+    color: $white;
+  }
+}
+
+.modal {
+  &.fade {
+    .modal-dialog {
+      transform: scale(1) translateY(1rem);
+      opacity: 0;
+      transition: 400ms ease-in-out;
+    }
+
+    &.show {
+      .modal-dialog {
+        opacity: 1;
+        transform: scale(1) translateY(0rem);
+      }
+    }
+  }
+}
+
+.modal-backdrop {
+  transition: 400ms ease-in-out;
+
+  &.show {
+    opacity: 1;
+    background-color: rgba(black, 0.5);
+    backdrop-filter: blur(1rem);
+  }
+}
+
+.no_record_found {
+  text-align: center;
+
+  svg {
+    width: 4rem;
+    height: auto;
+    margin-bottom: 0.4rem;
+
+    path {
+      @include theme() {
+        fill: theme-get("textclr");
+      }
+    }
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    opacity: 0.8;
+  }
+}
+
+.swal2-container.swal2-center.swal2-backdrop-show {
+  -webkit-backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.5rem);
+  opacity: 1;
+
+  .walletmeta {
+    border-radius: 2rem;
+    background: $gradient;
+    padding: 3rem 2rem 3rem;
+
+    .swal2-icon {
+      border-color: #fff;
+      color: #fff;
+      margin-top: 0;
+    }
+
+    .swal2-title {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .swal2-html-container {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin: 1rem 0;
+    }
+
+    .swal2-actions {
+      width: 100%;
+
+      .swal2-confirm {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 14.3rem;
+        border-radius: 4rem;
+        font-size: 2rem;
+        font-weight: 600;
+        height: 5rem;
+        color: #ffffff;
+        background: linear-gradient(92.62deg, #8f5bff 0.64%, #0057ff 103.8%);
+        font-family: "Roboto Condensed";
+      }
+    }
+  }
+}
