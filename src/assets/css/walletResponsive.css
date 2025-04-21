@@ -1,0 +1,541 @@
+/* Rezor Wallet Landing Page Responsive Css */
+
+@media (max-width: 1400px) {
+  .main-wrapper .container.navbar-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    max-width: 1438px;
+  }
+  .main-wrapper .navbar-container .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1438px !important;
+  }
+  .main-wrapper .section-container {
+    max-width: 1000px;
+  }
+  .main-wrapper .crypto-app-bg {
+    padding: 5em 3em;
+  }
+  .main-wrapper .h2_crypto {
+    font-size: 3.5em;
+  }
+  .main-wrapper .wallet-hand {
+    right: -4.5rem;
+  }
+  .main-wrapper .wallet-hand img {
+    width: 90%;
+  }
+  .main-wrapper .scan-code {
+    left: 8%;
+    width: 12%;
+  }
+  .main-wrapper .carousel_caption_h2 {
+    font-size: 2.5em;
+  }
+  .main-wrapper .carousel-indicators .active[data-bs-target] {
+    width: 64px;
+  }
+  .wallet-box-p br {
+    display: none;
+  }
+  .main-wrapper .background-vector {
+    /* bottom: -8%; */
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .main-wrapper .background-vector {
+    /* bottom: -5%; */
+  }
+  .main-wrapper .container.navbar-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    max-width: 1438px;
+  }
+  .main-wrapper .navbar-container .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1438px;
+  }
+  /* first section */
+
+  .main-wrapper .wallet-hand img {
+    /* content: url(../images/images/RezorWalletImages/first-section/swap_element_2_ipad-1.png); */
+    width: 90%;
+  }
+  .main-wrapper .scan-code {
+    left: 8%;
+    width: 15%;
+  }
+  .main-wrapper .scan-code::before{
+    left: -39px;
+  }
+  .main-wrapper .h2_crypto {
+    font-size: 2.8em;
+  }
+  .main-wrapper .crypto-app-bg {
+    padding: 6em 3em;
+  }
+  .main-wrapper .wallet-hand {
+    right: -11rem;
+  }
+
+  /* second section */
+  .main-wrapper .rezor-wallet,
+  .main-wrapper .get-started,
+  .main-wrapper .begin-crypto,
+  .main-wrapper .get-in-touch {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .main-wrapper .wallet-box-p br,
+  .main-wrapper .color-paragraph br {
+    display: none;
+  }
+
+  /* third section */
+  .main-wrapper .get_started_h1 {
+    font-size: 2.5em;
+  }
+  .main-wrapper .gradient-text-today {
+    font-size: 1em;
+  }
+
+  /* fourth section */
+  .main-wrapper .carousel_caption_h2 {
+    font-size: 2.3em;
+  }
+  .main-wrapper .carousel-indicators .active[data-bs-target] {
+    width: 45px;
+  }
+  /* fifth section */
+  .main-wrapper h1.begin-crypto-h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* Navbar */
+  .main-wrapper .container.navbar-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1438px;
+  }
+  .main-wrapper .navbar-container .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: 1438px;
+  }
+  .main-wrapper .main-container,
+  .main-wrapper .section-container{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .main-wrapper .community_button_orange {
+    padding: 4% 3%;
+  }
+
+  .main-wrapper .crypto-app-bg {
+    padding: 7% 3% 0%;
+  }
+  .main-wrapper .background-vector {
+    background-image: url(../images/images/RezorWalletImages/first-section/vectors_bg_ipad.svg);
+    /* background-position: bottom;  */
+    top: 9%;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .main-wrapper .h2_crypto {
+    font-size: 3em;
+  }
+  .main-wrapper .crypto-col {
+    padding: 0em;
+  }
+  .main-wrapper .wallet-hand img {
+    content: url(../images/images/RezorWalletImages/first-section/swap_element_2_ipad-1.png);
+    width: 100%;
+  }
+  .main-wrapper .wallet-hand {
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .main-wrapper .download_button {
+    margin-bottom: 0%;
+    margin-top: 3%;
+  }
+  .main-wrapper .scan-code {
+    bottom: 0%;
+    width: 18%;
+  }
+ 
+
+  /* second section */
+  .main-wrapper .stars_img img {
+    content: url(../images/images/RezorWalletImages/second-section/stars-2_mobile.svg);
+  }
+  .main-wrapper .stars_img {
+    bottom: -21em;
+    right: 5em;
+  }
+  .main-wrapper .wallet-margin {
+    margin-top: 0%;
+  }
+  .main-wrapper .rezor-wallet-box {
+    margin-top: 5em;
+    height: 12em;
+  }
+  .main-wrapper .wallet-box-p br {
+    display: none;
+  }
+
+  /* third section */
+  .main-wrapper .get-started {
+    width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-top: 22em;
+  }
+  .main-wrapper .get_started_h1 {
+    font-size: 3em;
+  }
+  .main-wrapper .gradient-text-today {
+    font-size: 1.3em;
+  }
+  .main-wrapper .get_started_h1,
+  .main-wrapper .ul-list-get-started {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .main-wrapper .get_started_h1 {
+    margin-top: 1.5em;
+  }
+  .main-wrapper .get-started-img img {
+    content: url(../images/images/RezorWalletImages/third-section/get_started_image_new_ipad.svg);
+  }
+
+  /* fourth section */
+  .main-wrapper .carousel-item img {
+    content: url(../images/images/RezorWalletImages/fouth-section/transfers_ipad.svg);
+  }
+  .main-wrapper .carousel-caption {
+    top: 0;
+    transform: translateY(0px);
+    bottom: 0px;
+    left: 10%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-wrapper .carousel_caption_h2 {
+    font-size: 2.2em;
+  }
+  .main-wrapper .carousel_caption_h1 {
+    font-size: 3.5em;
+  }
+  .main-wrapper .carousel-indicators {
+    bottom: 0.4em;
+  }
+  .main-wrapper .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 17px;
+  }
+  .main-wrapper .carousel-indicators .active[data-bs-target] {
+    width: 35px;
+    height: 17px;
+  }
+
+  /* fifth section */
+  .main-wrapper .begin-crypto-img,
+  .main-wrapper .get_in_touch_content {
+    padding-left: 0;
+  }
+  .main-wrapper .begin-crypto {
+    margin-top: 3em;
+    width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .main-wrapper h3.begin-crypto-h3 {
+    margin-top: 1.5em;
+  }
+  .main-wrapper .color-paragraph br {
+    display: block;
+  }
+  /* sixth section */
+  .main-wrapper .get-in-touch {
+    margin-top: 3em;
+    width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .main-wrapper .get_in_touch_img img {
+    /* content: url(../images/images/RezorWalletImages/sixth-section/handshake-bg-ipad.svg); */
+    text-align: center;
+  }
+  .main-wrapper .get_in_touch_img {
+    padding-left: 0em;
+  }
+  /* .main-wrapper .touch1-img,
+  .main-wrapper .get-in-touch-handshake img {
+    display: none;
+  } */
+  .main-wrapper .get_in_touch_content {
+    margin-top: 6em;
+  }
+  
+}
+@media (max-width: 800px) {
+  .main-wrapper .scan-code {
+    bottom: 0%;
+    width: 20%;
+  }
+}
+@media (max-width: 750px) {
+  .main-wrapper .background-vector {
+    background-image: url(../images/images/RezorWalletImages/first-section/vectors_bg_ipad.svg);
+    background-position: bottom;
+    bottom: 0px;
+    top: 12.5%;
+    width: 100%;
+    /* height: 84%; */
+    background-size: 100% 100%;
+  }
+  .main-wrapper .rezor-wallet-box {
+    margin-top: 5em;
+    height: 14em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+  .main-wrapper .container.navbar-container,
+  .main-wrapper .navbar-container .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .main-wrapper .crypto-app-div .crypto-div-container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .main-wrapper .community_button_orange {
+    padding: 4% 3%;
+  }
+
+  /* section container */
+  .main-wrapper .section-container {
+    max-width: inherit;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  /* First Section */
+  .main-wrapper .crypto-app-bg {
+    padding: 0em;
+    background-color: #fff;
+  }
+  .main-wrapper .background-vector {
+    background-image: url(../images/images/RezorWalletImages/first-section/vector-bg-mobile.png);
+    background-position: bottom;
+    bottom: 0px;
+    top: 21%;
+    width: 100%;
+    height: 79%;
+    background-size: 100% 100%;
+  }
+  .main-wrapper .scan-code {
+    display: none;
+  }
+  .main-wrapper .h2_crypto {
+    font-size: 2.3em;
+  }
+  .main-wrapper .wallet-hand img {
+    content: url(../images/images/RezorWalletImages/first-section/swap_element_png.png);
+    width: 100%;
+  }
+  .main-wrapper .download_button {
+    margin-bottom: -8%;
+    margin-top: 4%;
+  }
+  .main-wrapper .crypto-col {
+    padding: 3em 2em 0em;
+  }
+  /* second section */
+  .main-wrapper .rezor-wallet {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin-top: 2em;
+  }
+  .main-wrapper .wallet-box-p br {
+    display: block;
+  }
+  .main-wrapper .discover_h1 {
+    font-size: 2.5em;
+  }
+  .main-wrapper .discover_h1 img {
+    content: url(../images/images/RezorWalletImages/second-section/stars-mobile.svg);
+  }
+  .main-wrapper .paragraph br,
+  .main-wrapper .color-paragraph br {
+    display: none;
+  }
+  .main-wrapper .wallet-margin {
+    margin-top: 0%;
+  }
+  .main-wrapper .rezor-wallet-box {
+    margin-top: 5em;
+    height: 13em;
+  }
+
+  .main-wrapper .stars_img img {
+    content: url(../images/images/RezorWalletImages/second-section/stars-2_mobile.svg);
+  }
+  .main-wrapper .stars_img {
+    bottom: -14.5em;
+    right: -1.5em;
+  }
+  /* third section */
+  .main-wrapper .get-started {
+    margin-top: 9em;
+    width: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .main-wrapper .get_started_h1 {
+    margin-top: 0em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+  .main-wrapper .get-started-img img {
+    content: url(../images/images/RezorWalletImages/third-section/get_started_image_new_mobile.svg);
+    z-index: 3;
+    position: relative;
+    text-align: center;
+  }
+  .main-wrapper .ul-list-get-started,
+  .main-wrapper .begin-crypto,
+  .main-wrapper .get-in-touch {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+  /* fourth section */
+  .main-wrapper .carousel-item img {
+    content: url(../images/images/RezorWalletImages/fouth-section/transfers_mobile.png);
+    /* text-align: center; */
+  }
+  .main-wrapper .digital-transfers {
+    margin-top: 2.2em;
+  }
+  .main-wrapper .carousel-caption {
+    top: 0;
+    transform: translateY(0px);
+    bottom: 0px;
+    left: 3%;
+    right: 3%;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-wrapper .carousel_caption_h2 {
+    font-size: 1.8em;
+  }
+  .main-wrapper .carousel_caption_h1 {
+    font-size: 2.8em;
+  }
+  .main-wrapper .carousel-indicators .active[data-bs-target] {
+    width: 1em;
+    height: 3px;
+  }
+  .main-wrapper .carousel-indicators [data-bs-target] {
+    width: 0.3em;
+    height: 3px;
+  }
+  .main-wrapper .carousel_caption_h2 br {
+    display: block;
+  }
+  .main-wrapper .carousel-indicators {
+    bottom: 0.4em;
+  }
+  /* fifth section */
+  .main-wrapper .begin-crypto {
+    margin-top: 4em;
+    width: auto;
+  }
+  .main-wrapper .begin-crypto-img,
+  .main-wrapper .get_in_touch_content {
+    padding-left: 0;
+  }
+  .main-wrapper .begin-crypto-img img {
+    content: url(../images/images/RezorWalletImages/fifth-section/crypto-experience-mobile-new.svg);
+    text-align: center;
+  }
+  .main-wrapper h1.begin-crypto-h1 {
+    font-size: 3em;
+  }
+
+  /* sixth section */
+  .main-wrapper .get-in-touch-handshake img {
+    content: url(../images/images/RezorWalletImages/sixth-section/handshake_svg.svg);
+    text-align: center;
+    width: 33rem;
+  }
+  .main-wrapper .get_in_touch_img {
+    padding-left: 0em;
+  }
+  .main-wrapper .touch-img1 {
+    content: url(../images/images/RezorWalletImages/sixth-section/handshake-bg-svg.png);  
+   width: 30rem;
+  }
+  .main-wrapper .get-in-touch-handshake {
+    left: -8%;
+    bottom: 0%;
+  }
+  /* .main-wrapper .touch1-img,
+  .main-wrapper .get-in-touch-handshake img {
+    display: none;
+  } */
+  .main-wrapper .get-in-touch {
+    margin-top: 4em;
+    width: auto;
+  }
+  .main-wrapper .get_in_touch_content {
+    margin-top: 4em;
+  }
+
+  /* footer */
+  .main-wrapper .mobile_footer {
+    background-image: url(../images/images/RezorWalletImages/footer/footer_bg_mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    /* min-height: 30vw; */
+    border-radius: 20px;
+    position: relative;
+    padding: 1.72em;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    margin: 3em 1.5em 0;
+  }
+}
+@media (max-width: 576px) {
+  .main-wrapper .box-icon {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 430px){
+  .main-wrapper .get-in-touch-handshake {
+    left: -2em;
+    bottom: 0%;
+}
+}

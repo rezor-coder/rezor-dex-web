@@ -1,0 +1,136 @@
+@import "../../../assets/theme/_var.scss";
+
+.trade_page {
+  .trade_table {
+    width: 100%;
+
+    .table_head {
+      border-radius: 16px 16px 0px 0px;
+      padding: 0rem 4rem;
+      height: 5.6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: $gradient;
+
+      h5 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-right: 2rem;
+      }
+
+      .table_head_input {
+        width: 100%;
+        max-width: 35rem;
+        position: relative;
+        z-index: 0;
+
+        span {
+          width: 2.4rem;
+          height: 2.4rem;
+          position: absolute;
+          top: 50%;
+          left: 14px;
+          transform: translate(0%, -50%);
+          z-index: 1;
+
+          svg {
+            circle,
+            path {
+              @include theme() {
+                stroke: theme-get("textclr");
+              }
+            }
+          }
+        }
+
+        input {
+          height: 3.8rem;
+          width: 100%;
+          padding: 0.6rem 1.4rem 0.7rem 1.4rem;
+          border-radius: 8px;
+          border: 1px solid #a56cfe;
+          background: rgba(255, 255, 255, 0.04);
+          backdrop-filter: blur(28px);
+          font-size: 1.6rem;
+          padding-left: 4.3rem;
+          font-weight: 500;
+
+          &:focus {
+            outline: none;
+          }
+
+          &::placeholder {
+            opacity: 0.6;
+
+            @include theme() {
+              color: theme-get("textclr");
+            }
+          }
+
+          @include theme() {
+            color: theme-get("textclr");
+          }
+        }
+      }
+    }
+
+    .table_in {
+      padding: 1.6rem 2rem;
+      border-radius: 1.2rem 1.6rem 1.2rem 1.6rem;
+
+      @include theme() {
+        background: theme-get("secondryBg");
+      }
+
+      table {
+        thead {
+          tr {
+            th {
+              &:last-child {
+                opacity: 1;
+                position: static;
+              }
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              &:last-child {
+                position: static;
+              }
+            }
+          }
+        }
+      }
+
+      .trade_btn {
+        font-size: 1.4rem;
+        font-weight: 500;
+        width: 10.7rem;
+        height: 3.7rem;
+        display: flex;
+        justify-content: centr;
+        align-items: center;
+        flex-shrink: 0;
+      }
+    }
+  }
+}
+
+.favoriteBtn {
+  border: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: transparent;
+  padding: 0;
+
+  svg {
+    path {
+      @include theme() {
+        fill: theme-get("textclr");
+      }
+    }
+  }
+}

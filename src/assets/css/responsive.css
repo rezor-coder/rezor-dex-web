@@ -1,0 +1,6920 @@
+@media (max-width: 350px) {
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    height: 336px !important;
+  }
+  .rezor_subtract_button .whitepaper_button {
+    width: 150px;
+    padding: 15px;
+  }
+  .blog_div p.date {
+    top: 39% !important;
+    left: 16px !important;
+    font-size: 12px;
+  }
+  .button_numbers_trust button.whitepaper_button {
+    width: 150px;
+    padding: 10px 16px;
+  }
+  .rezor_subtract_button {
+    bottom: -5px;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    height: 400px !important;
+  }
+  .rezor_subtract_button {
+    bottom: 0px;
+  }
+  .rezor_subtract_button .whitepaper_button {
+    width: 172px;
+  }
+  .blog_div p.date {
+    top: 40% !important;
+    left: 13px !important;
+    font-size: 13px;
+  }
+  .button_numbers_trust button.whitepaper_button {
+    width: 170px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 430px) {
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    height: 450px !important;
+  }
+  .rezor_subtract_button {
+    bottom: 0px;
+  }
+  .rezor_subtract_button .whitepaper_button {
+    width: 200px;
+  }
+  .blog_div p.date {
+    top: 41% !important;
+    left: 20px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Margin */
+  .margin-top-150 {
+    margin-top: 100px;
+  }
+  /* Hero Section Responsive Style */
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section-text h1 {
+    font-size: 20px;
+    margin-top: -17px;
+    line-height: 20px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: -223px;
+    top: -131px;
+  }
+  .hero-ellipse-back {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 400px;
+    z-index: 2px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 27px;
+    line-height: 10.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 50px;
+    line-height: 73.2px;
+  }
+  .feature-item h5 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .heading_whats_in_it h2 {
+    font-size: 3.125em;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 30px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+
+  .whats_in_it_box {
+    /* margin-bottom: 25px; */
+    /* height: 25vh !important; */
+    /* background-color: aqua; */
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  /* .numbers_bg_subtract h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+  } */
+  .numbers_bg_subtract h3 {
+    font-size: 22px;
+    line-height: 30.6px;
+    margin-top: 10px;
+  }
+  .numbers_bg_subtract p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .numbers_bg_subtract {
+    height: 530px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_phone_1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    border-radius: 20px;
+  }
+  .button_numbers_trust {
+    bottom: 0px;
+    /* display: none; */
+  }
+  .transaction_fee {
+    margin-top: 25px;
+  }
+  /* .transaction_rate_content1{
+    margin-top: 40px;
+  } */
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .transaction_fee .transaction_img img {
+    content: url("../images/images/numbers_phone_2.png");
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  /* .block_size_content {
+      margin-top: 30px;
+    } */
+  .block_size_content {
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 165px;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  .block_size_img {
+    top: -3px;
+    right: 0px;
+  }
+  .block_size_content p {
+    font-size: 16px;
+  }
+  .block_size_content h2 {
+    font-size: 27px;
+    line-height: 27px;
+    color: var(--text-color-first);
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content h2 {
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  .unique_products_content h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url("../images/images/unique_products/saitapro_responsive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 34px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  /* .rezorSwapBg{
+    background-image: url("../images/images/rezorSwapUpdated.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 20vh;
+  }
+  .rezorWalletBG{
+    background-image: url("../images/images/rezorWalletUpdated.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 20vh;
+  } */
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    position: absolute;
+    padding: 10px !important;
+    top: 89%;
+    /* left: 61%; */
+    right: -40%;
+    transform: translateX(-50%);
+    /* display: none; */
+  }
+  .user_numbers h2 {
+    font-size: 90px;
+    line-height: 72px;
+  }
+  .user_numbers h2 {
+    color: #fff;
+    /* -webkit-text-stroke: 1.5px rgba(0, 255, 150, 0.7);  
+    background: linear-gradient(90deg, #00ff96, #a0ffe0);
+    background-clip: text;
+    -webkit-background-clip: text; */
+
+    background: -webkit-linear-gradient(-90deg, #1af5af 5%, #eef5ff 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    opacity: 0.8;
+  }
+  .user_numbers h3 {
+    font-size: 90px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .blog_div p.date {
+    top: 39%;
+    left: 3px;
+  }
+  .blog_div {
+    margin-top: 40px;
+  }
+  .blog_div .blog_box {
+    padding: 30px 24px 30px 24px;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: auto;
+  }
+
+  /* Footer Css */
+  /* .footer {
+      background-image: url("../images/images/footer_bg_responsive.png");
+      background-repeat: no-repeat;
+      height: 721px;
+      background-size: contain;
+      padding: 30px;
+    }
+    .footer_logo h2 br {
+      display: none;
+    }
+    #subscribe_mail {
+      width: 100%;
+    } */
+}
+
+@media (min-width: 430px) and (max-width: 445px) {
+  .transaction_fee {
+    margin-top: 70px !important;
+  }
+}
+
+@media (min-width: 445px) and (max-width: 460px) {
+  .transaction_fee {
+    margin-top: 90px !important;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 460px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero Section Responsive Style */
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 22px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 30px;
+    /* line-height: 41px; */
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_phone_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_fee .transaction_img img {
+    content: url(../images/images/numbers_phone_2.png);
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    /* padding-top: 41px !important; */
+    right: 0px;
+    bottom: 0px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee {
+    margin-top: 50px;
+  }
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+  }
+
+  .whats_in_it_box:hover img {
+    background-color: var(--primary-color) !important;
+    width: 17% !important;
+    border-radius: var(--border-radius);
+    padding: 10px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_subtract_button {
+    right: 1rem;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    width: 300px;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorWalletBG {
+    background-image: url("../images/images/rezorWalletUpdated.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorSwapBg {
+    background-image: url("../images/images/rezorSwapUpdated.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: -17px;
+    /* bottom: 1rem; */
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 41%;
+    left: 25px;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 49%;
+    width: 100%;
+  }
+}
+
+/* Iphone Responsive styles */
+@media (min-width: 460px) and (max-width: 500px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero Section Responsive Style */
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 400px;
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_phone_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_subtract_button {
+    right: 2rem;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    width: 300px;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 42%;
+    left: 40px;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -13%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .whitepaper_button {
+    width: 16em;
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 400px;
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_phone_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .block_size_img {
+    top: 15px;
+    right: 27px;
+    top: 20px;
+    right: 38px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_subtract_button {
+    right: 2rem;
+    bottom: 30px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 23px;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 51%;
+    left: 60px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 600px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .whitepaper_button {
+    width: 16em;
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  /* Hero Section Responsive Style */
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_phone_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    /* right: 15px;
+    bottom: 1rem; */
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 50%;
+    left: 50px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .whitepaper_button {
+    width: 16em;
+  }
+
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    /* right: 15px; */
+    /* bottom: 1rem; */
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 700px) {
+  /* Home Page Responsive */
+  .container {
+    /* padding-left: 50px !important;
+    padding-right: 50px !important; */
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Hero Section Responsive Style */
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (max-width: 700px)  { 
+  .blog-wrapper .bitcoin-rezor-img {
+    left: 190px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 744px) {
+  /* Home Page Responsive */
+  .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .blog-wrapper .bitcoin-rezor-img {
+    left: 190px;
+  }
+
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .whitepaper_button {
+    width: 16em;
+  }
+  .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px;
+      background-position: center; */
+    height: 924px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+    border-radius: 20px;
+  }
+  /* .transaction_fee .transaction_img img {
+      content: url(../images/images/numbers_tablet_2.png);
+    } */
+  .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 60px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/unique_products/saitapro_responsive.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+    overflow: hidden;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 44%;
+    width: auto;
+    right: -9%;
+    position: absolute;
+    height: 50%;
+  }
+}
+
+@media (min-width: 744px) and (max-width: 800px) {
+  .container.custom-container {
+    max-width: 700px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    width: 15em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    /* margin: 0px 30px; */
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .transaction_fee .transaction_img img {
+    content: url(../images/images/numbers_tablet_2.png);
+  }
+  .transaction_fee_content {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    /* right: -1rem; */
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 90px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .saita_pro_button .whitepaper_button,
+  .x_bridge_button .whitepaper_button,
+  .saita_card_button .whitepaper_button {
+    padding: 15px;
+    width: 180px;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 26px;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 37%;
+    /* width: 68%; */
+    height: 52%;
+    right: 12%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .container.custom-container {
+    max-width: 700px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: -1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 90px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+@media (min-width: 850px) and (max-width: 900px) {
+  .container.custom-container {
+    max-width: 700px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section .whitepaper_button {
+    /* width: 200px; */
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section {
+    height: 924px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    /* width: 16em; */
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    /* margin: 0px 30px; */
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 4em;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    margin-top: 2%;
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: -1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 90px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 35%;
+    width: auto;
+    position: absolute;
+    height: 60%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 950px) {
+  .container.custom-container {
+    max-width: 700px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    /* width: 200px; */
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: -1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 90px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 100px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 992px) {
+  .container.custom-container {
+    max-width: 800px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_tablet_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: 1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_coin_list {
+    margin-top: 90px;
+  }
+  .rezor_list1,
+  .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 35%;
+    width: auto;
+    position: absolute;
+    height: 60%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+  .container.custom-container {
+    max-width: 850px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    /* width: 200px; */
+  }
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    /* width: 16em; */
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 417px;
+  }
+  /* .button_numbers_trust_new {
+    width: 32%;
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+  } */
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .button_numbers_trust button.whitepaper_button {
+    width: 19em;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: -1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 35%;
+    width: auto;
+    position: absolute;
+    height: 60%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+  .container.custom-container {
+    max-width: 850px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    /* width: 200px; */
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    /* width: 16em; */
+  }
+  .button_numbers_trust button.whitepaper_button {
+    width: 19em;
+  }
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  .numbers_bg_subtract {
+    height: 417px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: -1rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 35%;
+    width: auto;
+    position: absolute;
+    height: 60%;
+    right: 10%;
+  }
+
+  .custo-h {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .container.custom-container {
+    max-width: 850px;
+  }
+  .navbar .navbar-nav {
+    gap: 25px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  /* Hero section */
+  .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  .hero-section .whitepaper_button {
+    /* width: 200px; */
+  }
+  .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-section-text p {
+    margin-top: 20px;
+  }
+  .whitepaper_button {
+    /* width: 16em; */
+  }
+  /* .button_numbers_trust button.whitepaper_button {
+    width: 19em;
+} */
+  /* Design for Tomorrow Section Responsive style*/
+  .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  .feature-item p {
+    margin-top: 12px;
+  }
+  .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item .icon {
+    margin-right: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  .line-violet,
+  .line-red {
+    height: 85px;
+  }
+  .line-text {
+    font-size: 48px;
+  }
+  .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  /* .numbers_we_trust {
+    margin-top: 20px;
+  }
+  .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  } */
+  .numbers_bg_subtract {
+    height: 405px;
+  }
+  .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  .button_numbers_trust {
+    bottom: 6px;
+  }
+  .transaction_fee,
+  .statistical_landscape {
+    margin-top: 25px;
+  }
+  .statistical_landscape {
+    height: 164px;
+  }
+  .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 36px;
+  }
+  .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  .rezor_subtract_img .rezor_coin_img {
+    /* content: url("../images/images/rezor_coin_subtract.png"); */
+  }
+  .rezor_coin_content {
+    margin-top: -45px;
+  }
+  .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  .rezor_subtract_button {
+    right: 3rem;
+  }
+  .rezor_coin_content p br {
+    display: none;
+  }
+  .rezor_subtract_img .rezor_coin_img {
+    height: 800px;
+    width: 100%;
+  }
+  .rezor_list1 h6,
+  .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  .rezor_list1 h6 br,
+  .rezor_list h6 br {
+    display: none;
+  }
+  .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  .unique_products_content p br {
+    display: none;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    background-image: url(../images/images/saita_pro_ipad.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 428px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  .rezor_updates_content p {
+    text-align: center;
+  }
+  input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 35%;
+    width: auto;
+    position: absolute;
+    height: 60%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .custom-container {
+    max-width: 960px !important;
+  }
+  /* navbar Style */
+  .navbar .navbar-nav {
+    gap: 20px;
+  }
+
+  /* Hero Section */
+  .hero-section-mask {
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    bottom: 0px;
+  }
+  .hero-section .whitepaper_button {
+    width: 20%;
+  }
+  .hero-section-text h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .hero-section-text span.blockchain_text {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  /* tomorrow section */
+  .tomorrow-section-content h2 {
+    font-size: 35px;
+    line-height: 40.6px;
+  }
+  .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 80px;
+    line-height: 85.8px;
+  }
+  .left-shape img {
+    height: 700px;
+  }
+  .feature-item {
+    padding: 18px;
+  }
+  .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  /* whats in it */
+  .heading_whats_in_it h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .whats_in_it_box {
+    width: 100%;
+    padding: 30px 15px;
+  }
+  .whats_in_it_box h5 br {
+    display: none;
+  }
+  .whats_in_it_box h5 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .numbers_bg_subtract p,
+  .transaction_fee h4,
+  .block_size_content p,
+  .transaction_rate_content1 h4 {
+    font-size: 19px;
+    line-height: 27.2px;
+  }
+  .numbers_bg_subtract h2,
+  .rezor_coin_content h2 {
+    font-size: 63px;
+    line-height: 63px;
+  }
+  .numbers_bg_subtract h3 {
+    font-size: 38px;
+    line-height: 41px;
+  }
+  .numbers_bg_subtract {
+    height: 350px;
+  }
+  .whitepaper_button {
+    width: 11em;
+    padding: 15px;
+  }
+  .saita_pro_button,
+  .x_bridge_button,
+  .saita_card_button {
+    position: absolute;
+    right: 0.3rem;
+    bottom: -0.2rem;
+  }
+
+  .transaction_fee h2,
+  .block_size_content h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .block_size_img {
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 70px;
+  }
+
+  /* Rezor Coin */
+  .rezor_coin_content p br,
+  .unique_products_content p br {
+    display: none;
+  }
+  .rezor_list1,
+  .rezor_list {
+    padding: 18px 20px;
+  }
+
+  /* Unique Products */
+  .saita_pro_img h2,
+  .x_bridge_img h2,
+  .saita_card_img h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .saita_pro_img p,
+  .x_bridge_img p,
+  .saita_card_img p {
+    font-size: 25px;
+    line-height: 41.6px;
+  }
+  .unique_products_content h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .saita_pro_img,
+  .x_bridge_img,
+  .saita_card {
+    height: 526px;
+  }
+  .user_numbers h2 {
+    font-size: 150px;
+    line-height: 170px;
+  }
+
+  .user_numbers h3 {
+    font-size: 150px;
+    line-height: 60px;
+  }
+
+  /* Rezor Blogs */
+  .rezor_blog_content h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .blog_div p.date {
+    font-size: 13px;
+    top: 42%;
+    left: 9px;
+  }
+  .blog_div .blog_box {
+    padding: 20px 20px 25px 20px;
+  }
+  .blog_div h4 {
+    font-size: 18px;
+  }
+  .blog_div .description_blog {
+    font-size: 14px;
+  }
+
+  /* Rezor Updates */
+  .rezor_updates_content h2 {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .bells_rezor img {
+    width: 45%;
+  }
+  .tomorrow-section-content {
+    padding-left: 60px;
+  }
+  /* footer */
+  /* .footer_logo h2 {
+    font-size:  0.8620689655172413em    ;
+    line-height: 31.9px;
+    margin-top: 2.06em;
+  } */
+  /* .forms_text h3 {
+    font-size: 16px;
+  } */
+  .forms_text h6 {
+    font-size: 14px;
+  }
+  #subscribe_mail {
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+  }
+  /* .footer_bottom .row{
+      margin-top: 40px
+    } */
+  .feature-item p br {
+    display: none;
+  }
+  .feature-item h5 {
+    font-size: 17px;
+  }
+  .feature-item p {
+    margin-top: 18px;
+  }
+  /* .footer {  
+    min-height: 30vw;  
+  } */
+}
+
+@media (min-width: 1400px) {
+  .custom-container {
+    max-width: 1438px !important;
+  }
+  .tomorrow-section-content {
+    padding-left: 45px;
+  }
+  .feature-item p br {
+    display: none;
+  }
+  .feature-item h5 {
+    font-size: 17px;
+  }
+  .feature-item p {
+    margin-top: 18px;
+  }
+  .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  .hero-section-mask {
+    position: absolute;
+    right: 95px;
+    width: 800px;
+    bottom: 0px;
+  }
+  .hero-section {
+    height: 780px;
+    padding: 10px;
+  }
+  img.numbers_svg {
+    display: none;
+  }
+}
+
+/* // 1000 ho necha hose jad chal se  */
+/* @media (max-width: 1000px) { 
+  .footer_bottom {
+    display: none;
+  }
+} */
+
+/* // mini 1000 ho uper hose jad chal se  */
+@media (min-width: 800px) {
+  .footer_bottom > div {
+    margin: 0 5em !important;
+  }
+}
+@media (max-width: 952px) {
+  .footer {
+    display: none;
+  }
+  .blockchain_text_lg {
+    display: none;
+  }
+}
+@media (min-width: 952px) {
+  .mobile_footer_parent {
+    display: none;
+  }
+  .blockchain_text_sm {
+    display: none;
+  }
+  .slider_dots {
+    display: none !important;
+  }
+}
+@media (max-width: 552px) {
+  .mobile_footer {
+    background-image: url("../images/images/footer_bg_mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    /* min-height: 30vw;  */
+    border-radius: 20px;
+    position: relative;
+    padding: 1.72em;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    margin: 0px 1.5em;
+  }
+}
+@media (max-width: 600px) {
+  .blogTopContainer {
+    background-image: url(../images/images/blogtopbgtab.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 627px; */
+    background-size: 100% 100%;
+    padding: 60px 0px 60px 100px;
+  }
+  .buttonContainer {
+    width: 65%;
+    flex-wrap: wrap;
+  }
+  .blogContainerButton {
+    right: 15px;
+    bottom: 15px;
+  }
+  .rezorWalletBG {
+    background-image: url("../images/images/rezorWalletUpdatedMobile.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorSwapBg {
+    background-image: url("../images/images/rezorSwapUpdatedMobile.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .blogTopContainer {
+    background-image: url(../images/images/blogtopbgmobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 627px; */
+    background-size: 100% 100%;
+    padding: 60px 0px 60px 100px;
+  }
+  .buttonContainer {
+    width: 65%;
+    flex-wrap: wrap;
+  }
+  .blogContainerButton {
+    right: 15px;
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .whats_in_it_box p {
+    width: 75% !important;
+  }
+  .rezorWalletBG {
+    background-image: url("../images/images/rezorWalletUpdatedTab.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 428px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorSwapBg {
+    background-image: url("../images/images/rezorSwapUpdatedTab.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 428px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rezorWalletBG {
+    background-image: url(../images/images/rezorWalletUpdatedTab.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorSwapBg {
+    background-image: url("../images/images/rezorSwapUpdatedTab.png");
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .rezorWalletButtonDiv-w {
+    width: 39%;
+    position: absolute;
+    right: -1%;
+    bottom: 0%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* .button_numbers_trust_new {
+    width: 32%;
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+  } */
+  .rezor_subtract_button_coin {
+    width: 34%;
+    position: absolute;
+    right: 0%;
+    bottom: 8%;
+  }
+  .leftShapeDesktop {
+    display: none;
+  }
+  .leftShapeTab {
+    display: block;
+  }
+}
+@media (max-width: 552px) {
+  .rezorWalletBG {
+    background-image: url(../images/images/rezorWalletUpdatedMobile.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .rezorSwapBg {
+    background-image: url("../images/images/rezorSwapUpdatedMobile.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .button_numbers_trust_new {
+    width: 53%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .rezor_subtract_button_coin {
+    width: 28%;
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+  }
+  .whats_in_it_box:hover img {
+    width: 17%;
+  }
+  .whats_in_it_box img {
+    bottom: auto;
+  }
+  .numbers_bg_subtract {
+    height: 750px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .rezor_subtract_button_coin {
+    width: 34%;
+    position: absolute;
+    right: 0%;
+    bottom: 8%;
+  }
+  .rezorWalletBG {
+    /* background-image: url(../images/images/rezorWalletUpdatedTab.png); */
+  }
+}
+@media (max-width: 900px) {
+  .whats_in_it_box:hover img {
+    width: 17%;
+  }
+  .whats_in_it_box:hover {
+    height: 275px;
+  }
+}
+@media (max-width: 1300px) {
+  .rezor_subtract_button_coin {
+    width: 28%;
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+  }
+}
+@media (max-width: 992px) {
+  .numbers_bg_subtract {
+    height: 815px !important;
+  }
+
+  .button_numbers_trust_new {
+    width: 34%;
+    position: absolute;
+    bottom: 1%;
+    right: -1%;
+  }
+  .numbers_bg_subtract {
+    height: 815px !important;
+  }
+  .user_numbers h2 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 150px;
+    line-height: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .button_numbers_trust_new {
+    width: 55%;
+  }
+
+  .rezorWalletButtonDiv-w {
+    width: 30%;
+    position: absolute;
+    right: 8%;
+    bottom: 3%;
+  }
+
+  .user_numbers h2 {
+    font-size: 63px;
+    line-height: 120px;
+  }
+  .user_numbers h3 {
+    font-size: 90px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 552px) {
+  .rezorWalletButtonDiv-w {
+    width: 52%;
+    position: absolute;
+    right: 8%;
+    bottom: 3%;
+  }
+}
+
+@media (max-width: 450px) {
+  .numbers_bg_subtract {
+    height: 700px !important;
+  }
+
+  .rezorWalletButtonDiv-w {
+    width: 51%;
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+  }
+}
+
+/* Blog Description Page Css */
+@media (max-width: 1400px) {
+  .main .custom-container {
+    max-width: 1438px !important;
+  }
+  .blog-wrapper .custom-container {
+    max-width: 1438px !important;
+    /* padding-left: 20px !important;
+    padding-right: 20px !important; */
+  }
+  .blog-wrapper .new-container {
+    max-width: inherit;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .blog-wrapper .recent_post_heading,
+  .blog-wrapper .tag_post_heading,
+  .blog-wrapper .archive_post_heading,
+  .blog-wrapper .related_post_heading h3,
+  .blog-wrapper .related_post_heading_ipad h3 {
+    font-size: 2em;
+  }
+  .blog-wrapper .posts_div_h4 {
+    font-size: 1.2em;
+  }
+  .blog-wrapper .date-blog p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .blog-wrapper .new-container,
+  .blog-wrapper .custom-container {
+    max-width: inherit;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .blog-wrapper .h2_heading_dynamic h2 br {
+    display: none;
+  }
+  .blog-wrapper .everything_dynamic {
+    height: 62vh;
+  }
+  .blog-wrapper .images_top_new {
+    margin-top: -10em;
+  }
+  .blog-wrapper .recent_post_heading,
+  .blog-wrapper .tag_post_heading,
+  .blog-wrapper .archive_post_heading,
+  .blog-wrapper .related_post_heading h3,
+  .blog-wrapper .related_post_heading_ipad h3 {
+    font-size: 2em;
+  }
+  .blog-wrapper .posts_div_h4 {
+    font-size: 1em;
+  }
+  .blog-wrapper .date-blog p {
+    font-size: 15px;
+  }
+  .blog-wrapper .blogs_row {
+    margin-bottom: 7em;
+  }
+  .blog-wrapper .blog_carousel {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .main .custom-container {
+    max-width: inherit;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .blog-wrapper .custom-container,
+  .blog-wrapper .new-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1438px !important;
+  }
+  /* .blog-wrapper .new-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .blog-wrapper .new-container {
+    max-width: 700px;
+  } */
+  .blog-wrapper .h2_heading_dynamic h2 {
+    font-size: 3.5em;
+    margin-top: 1em;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  /* .blog-wrapper .blockchain-img img {
+    content: url(../images/images/blogDescriptions/images-section/blockchain-bg-ipad.png);
+  } */
+  .blog-wrapper .everything_dynamic {
+    height: 59vh;
+  }
+  .blog-wrapper .related_articles_ipad {
+    display: flex;
+  }
+  .blog-wrapper .h2_heading_dynamic h2 br,
+  .blog-wrapper .post-bg img,
+  .blog-wrapper .related_articles {
+    display: none;
+  }
+  .blog-wrapper .col_paragraph_div {
+    border: 0px;
+  }
+  .blog-wrapper .paragraph_blockchain p,
+  .blog-wrapper .box_paragraph p,
+  .blog-wrapper .paragraph_p_opacity p {
+    font-size: 1.25em;
+  }
+  .blog-wrapper .posts_recent_flex {
+    margin-top: 5em;
+  }
+
+  .blog-wrapper .recent_post_heading,
+  .blog-wrapper .tag_post_heading,
+  .blog-wrapper .archive_post_heading,
+  .blog-wrapper .related_post_heading_ipad h3,
+  .blog-wrapper .related_post_heading h3 {
+    font-size: 2.3em;
+  }
+  .blog-wrapper .date-blog p {
+    font-size: 13px;
+  }
+  .blog-wrapper .blog_carousel {
+    margin-bottom: 5em;
+    display: block;
+  }
+  .blog-wrapper .bitcoin-rezor-img {
+    left: 190px;
+  }
+  /* .blog-wrapper .blogs_row {
+    display: none;
+  } */
+}
+@media (max-width: 600px) {
+  .main .custom-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .blog-wrapper .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .blog-wrapper .h2_heading_dynamic h2 {
+    font-size: 2.25em;
+    margin-top: 1.5em;
+    /* padding-right: 20px; */
+  }
+  .blog-wrapper .blog_carousel {
+    display: none;
+  }
+  .blog-wrapper .related_articles {
+    display: block;
+  }
+  .blog-wrapper .bitcoin-rezor-img,
+  .blog-wrapper .related_articles_ipad {
+    display: none;
+  }
+  .blog-wrapper .images_top_new {
+    /* margin-top: -34%; */
+    margin-top: -7em;
+  }
+  .blog-wrapper .everything_dynamic {
+    height: 46vh;
+  }
+  /* .blog-wrapper .blockchain-img img {
+    content: url(../images/images/blogDescriptions/images-section/blockchain-bg-mobile.png);
+    width: 100%;
+  } */
+  .blog-wrapper .posts_recent_flex {
+    margin-top: 0%;
+  }
+  .blog-wrapper .blogs_row {
+    display: block;
+  }
+
+  .blog-wrapper .blogs_row {
+    margin-bottom: 2em;
+  }
+}
+
+/* Rezor swap css */
+@media (max-width: 1400px) {
+  .rezorSwap-wrapper .statistics_div_img {
+    padding: 11em 3.5em;
+  }
+  .rezorSwap-wrapper .trusted_million_div {
+    left: 40%;
+  }
+  .rezorSwap-wrapper .rezor_swap_div {
+    padding: 1.25em 0.65em 2.25em;
+  }
+
+  .rezorSwap-wrapper .heading_saitascan {
+    margin-bottom: 22.5em;
+  }
+  .rezorSwap-wrapper .heading-all-time-swappers {
+    margin-bottom: 6em;
+  }
+  .paragraph_p br {
+    display: none;
+  }
+  .rezorSwap-wrapper .statistics_div_img {
+    padding: 23% 3.5em;
+  }
+  .rezorSwap-wrapper .explore_btn {
+    font-size: 13px;
+  }
+  .rezorSwap-wrapper .heading_million_div {
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-bottom: 12%;
+  }
+}
+@media (max-width: 1200px) {
+  .rezorSwap-wrapper .container.custom-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    max-width: 1438px;
+  }
+  .rezorSwap-wrapper .trusted-by-million,
+  .rezorSwap-wrapper .statistics_overview {
+    padding-left: 5%;
+  }
+  .rezorSwap-wrapper .saitascan_row {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .rezorSwap-wrapper .rezorswap_heading_h1 {
+    font-size: 3em;
+  }
+  .rezorSwap-wrapper .rezorswap_heading {
+    margin-top: 15.5%;
+    margin-left: 5%;
+  }
+  .rezorSwap-wrapper .all-times-div {
+    margin-right: 15%;
+  }
+  .rezorSwap-wrapper .trusted_million_div {
+    right: 0px;
+    left: 50%;
+  }
+  .rezorSwap-wrapper .h4_heading_statistics{
+    font-size: 1.875em;
+  }
+  .rezorSwap-wrapper .heading_million_div {
+    padding-top: 22%;
+    padding-left: 9%;
+    padding-bottom: 10%;
+  }
+  .rezorSwap-wrapper .explore_btn {
+    font-size: 12px;
+  }
+  .rezorSwap-wrapper .rezor_swap_div {
+    padding: 1.25em 1em 2.25em;
+    /* height: 60vh; */
+  }
+  .rezorSwap-wrapper .saitascan_bg_globe img {
+    width: 100%;
+  }
+  .rezorSwap-wrapper .saitascan_bg {
+    padding: 2.5em 2em;
+  }
+  .rezorSwap-wrapper .heading_saitascan_h2 {
+    font-size: 1.75em;
+  }
+  .rezorSwap-wrapper .heading_saitascan {
+    margin-bottom: 24.5em;
+  }
+  .rezorSwap-wrapper .heading-all-time-swappers {
+    margin-bottom: 7em;
+  }
+  .rezorSwap-wrapper .paragraph_p br,
+  .rezorSwap-wrapper .overview_p br {
+    display: none;
+  }
+  .rezorSwap-wrapper .trading_chart_card {
+    margin-top: 5.5%;
+  }
+  .rezorSwap-wrapper .statistics_div_img {
+    padding: 26% 3.5em;
+  }
+  .rezorSwap-wrapper .community_heading_div {
+    padding-left: 7em;
+  }
+  .rezorSwap-wrapper .community_image_div {
+    padding-left: 1em;
+  }
+}
+@media (max-width: 992px) {
+  .rezorSwap-wrapper .container.custom-container {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+  .rezorSwap-wrapper .container.swap-container {
+    padding-left: 19px !important;
+    padding-right: 19px !important;
+  }
+  .rezorSwap-wrapper .trusted-by-million,
+  .rezorSwap-wrapper .statistics_overview {
+    padding-left: 0%;
+  }
+  .rezorSwap-wrapper .saitascan_row {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .rezorSwap-wrapper .rezorswap_bg_img {
+    left: 0px;
+    transform: translateX(0%);
+    right: 0;
+  }
+  .rezorSwap-wrapper .rezorswap_bg_img img {
+    content: url(../images/images/rezorSwapImages/first-section/rezorswap-bg-ipad.png);
+    width: 100%;
+  }
+  .rezorSwap-wrapper .rezorswap_heading_h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+  .rezorSwap-wrapper .rezorswap_heading {
+    margin-left: 0%;
+    margin-bottom: 74%;
+    margin-top: 15.5%;
+  }
+  .rezorSwap-wrapper .all-times-div {
+    margin-right: 0px;
+    margin-top: 7%;
+  }
+  .rezorSwap-wrapper .heading-all-time-swappers-new h1,
+  .rezorSwap-wrapper .heading-all-time-bitcoin h1 {
+    font-size: 3.25em;
+  }
+
+  .rezorSwap-wrapper .heading-all-time-swappers {
+    margin-bottom: 5em;
+  }
+  .rezorSwap-wrapper .heading_million_div {
+    margin-left: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 9em 3.875em 5em;
+  }
+  .rezorSwap-wrapper .trusted_million_div {
+    border-radius: 20px;
+    position: relative;
+    left: 0px;
+  }
+  /* .rezorSwap-wrapper .trusted_million_img {
+    right: 0;
+    left: 0;
+  } */
+  .rezorSwap-wrapper .trusted_million_img {
+    background-image: url(../images/images/rezorSwapImages/second-section/trusted_million_div_ipad.png);
+    background-size: 100% 100%;
+    /* width: 100%; */
+    border-radius: 20px;
+  }
+  .rezorSwap-wrapper .all-value-img img {
+    content: url(../images/images/rezorSwapImages/second-section/all-value-wave-ipad.png);
+  }
+  .rezorSwap-wrapper .all-time-value {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .rezorSwap-wrapper .all_time_row {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .rezorSwap-wrapper .our-products {
+    margin-top: 12.5%;
+  }
+  .rezorSwap-wrapper .saitascan_bg_globe img {
+    content: url(../images/images/rezorSwapImages/third-section/saitascan_ipad.png);
+    width: 100%;
+    border-bottom-right-radius: 20px;
+  }
+
+  .rezorSwap-wrapper .overview_p,
+  .rezorSwap-wrapper .our_products_paragraph_p {
+    padding: 1% 3% 0%;
+  }
+  .rezorSwap-wrapper .trading_chart_card {
+    margin-top: 6.5%;
+  }
+  .rezorSwap-wrapper .statistics_overview {
+    margin-top: 13.75%;
+  }
+  .rezorSwap-wrapper .heading_saitascan_h2 {
+    font-size: 2.25em;
+  }
+  .rezorSwap-wrapper .rezor_swap_div {
+    padding: 1.25em 1em 2.25em;
+    height: auto;
+  }
+  .rezorSwap-wrapper .paragraph_p br,
+  .rezorSwap-wrapper .overview_p br {
+    display: block;
+  }
+  .rezorSwap-wrapper .statistics_div_img {
+    background-image: url(../images/images/rezorSwapImages/fourth-section/statisticks_img_ipad.png);
+    background-size: 100% 100%;
+    padding: 8em 4em 12em;
+  }
+  .rezorSwap-wrapper .statisticks_div_black {
+    position: relative;
+    margin-top: 2em;
+    border-radius: 20px;
+    right: 0;
+  }
+  .rezorSwap-wrapper .community_image_div img {
+    content: url(../images/images/rezorSwapImages/fifth-section/Community_img_ipad.png);
+    /* width: 100%; */
+  }
+  .rezorSwap-wrapper .community_image_div {
+    padding-left: 0em;
+  }
+  .rezorSwap-wrapper .community_heading_div {
+    padding-left: 10px;
+    margin-top: 12.5%;
+    padding-right: 10px;
+  }
+  .rezorSwap-wrapper .empowered_community {
+    margin-bottom: 18%;
+  }
+}
+
+@media (max-width: 600px) {
+  .rezorSwap-wrapper .container.swap-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .rezorSwap-wrapper .container.custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .rezorSwap-wrapper .rezorswap_bg_img {
+    left: 0px;
+    transform: translateX(0%);
+    right: 0;
+  }
+  .rezorSwap-wrapper .rezorswap_bg_img img {
+    content: url(../images/images/rezorSwapImages/first-section/rezorswap-bg-mobile.png);
+    width: 100%;
+  }
+  .rezorSwap-wrapper .rezorswap_heading_h1 {
+    font-size: 2.25em;
+    text-align: center;
+  }
+  .rezorSwap-wrapper .rezorswap_heading {
+    margin-left: 0%;
+    margin-bottom: 130%;
+    margin-top: 28.5%;
+  }
+  @keyframes scrollCoins {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-20%);
+    }
+  }
+  .rezorSwap-wrapper .all-times-div {
+    margin-right: 0px;
+    margin-top: 1em;
+  }
+  .rezorSwap-wrapper .all-time-value,
+  .rezorSwap-wrapper .all_time_row {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .rezorSwap-wrapper .heading-all-time-swappers-new h1,
+  .rezorSwap-wrapper .heading-all-time-bitcoin h1 {
+    font-size: 2.5em;
+  }
+  .rezorSwap-wrapper .rezorswap_p br,
+  .rezorSwap-wrapper .our_products_paragraph_p br,
+  .rezorSwap-wrapper .overview_p br,
+  .rezorSwap-wrapper .p_para_community br {
+    display: none;
+  }
+  .rezorSwap-wrapper .heading-all-time-swappers {
+    margin-bottom: 5em;
+  }
+  .rezorSwap-wrapper .heading_million_div h1 {
+    font-size: 2em;
+  }
+  .rezorSwap-wrapper .heading_million_div span {
+    font-size: 2em;
+  }
+  .rezorSwap-wrapper .heading_million_div {
+    margin-left: 0px;
+    margin-top: 0%;
+    z-index: 9;
+    position: relative;
+    margin-bottom: 0%;
+    padding: 9em 1.875em 3em;
+  }
+  .rezorSwap-wrapper .trusted_million_div {
+    border-radius: 20px;
+    position: relative;
+  }
+  /* .rezorSwap-wrapper .trusted_million_img {
+    right: 0;
+    left: 0;
+  } */
+  .rezorSwap-wrapper .trusted_million_img {
+    background-image: url(../images/images/rezorSwapImages/second-section/trusted_million_div_mobile.png);
+    /* width: 100%; */
+    border-radius: 20px;
+  }
+  .rezorSwap-wrapper .all-value-img img {
+    content: url(../images/images/rezorSwapImages/second-section/all-value-wave-mobile.png);
+  }
+
+  .rezorSwap-wrapper .our-products {
+    margin-top: 18.5%;
+  }
+  .rezorSwap-wrapper .saitascan_bg_globe img {
+    content: url(../images/images/rezorSwapImages/third-section/saitascan-mobile.png);
+    width: 100%;
+    border-bottom-right-radius: 20px;
+  }
+  .rezorSwap-wrapper .saitascan_bg {
+    padding: 2.5em 2em;
+  }
+  .rezorSwap-wrapper .saitascan_row{
+    margin-top: 4%;
+  }
+  .rezorSwap-wrapper .overview_p,
+  .rezorSwap-wrapper .our_products_paragraph_p {
+    padding: 4% 3% 0%;
+  }
+  .rezorSwap-wrapper .statistics_overview {
+    margin-top: 13.75%;
+  }
+  .rezorSwap-wrapper .heading_saitascan_h2 {
+    font-size: 1.875em;
+  }
+  .rezorSwap-wrapper .statistics_div_img {
+    background-image: url(../images/images/rezorSwapImages/fourth-section/statisticks_img_mobile.png);
+    background-size: 100% 100%;
+    padding: 8em 4em 12em;
+  }
+  .rezorSwap-wrapper .statisticks_div_black {
+    position: relative;
+    margin-top: 2em;
+  }
+  .rezorSwap-wrapper .community_image_div img {
+    content: url(../images/images/rezorSwapImages/fifth-section/Community_img_mobile.png);
+    width: 100%;
+  }
+  .rezorSwap-wrapper .community_image_div {
+    padding-left: 0em;
+  }
+  .rezorSwap-wrapper .community_heading_div {
+    padding-left: 10px;
+    margin-top: 12.5%;
+    padding-right: 10px;
+  }
+  .rezorSwap-wrapper .empowered_community {
+    margin-bottom: 18%;
+  }
+}
+
+/* /////////// SWAP */
+@media (max-width: 1400px) {
+  .rezorSwap-wrapper .heading_million_div span {
+    font-size: 80px;
+  }
+}
+
+/* @media (max-width: 1200px) {
+  .rezorSwap-wrapper .heading_million_div {
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-bottom: -0%;
+  }
+} */
+
+@media (max-width: 992px) {
+  .rezorSwap-wrapper .trusted-by-million {
+    margin-top: 3%;
+  }
+}

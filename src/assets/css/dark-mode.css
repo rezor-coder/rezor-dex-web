@@ -1,0 +1,6690 @@
+/* Dark Mode Styles */
+body.dark-theme {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+/* Navbar */
+body.dark-theme .navbar {
+  background-color: #171717 !important;
+  /* color: #fff !important; */
+}
+body.dark-theme #offcanvasNavbar {
+  background-color: #171717 !important;
+  /* color: #fff !important; */
+}
+body.dark-theme .navbar .nav-link {
+  color: #fff;
+}
+body.dark-theme .navbar-brand img {
+  content: url(../images/images/logo-main-white.png);
+  /* width: 148px;
+  height: 49.17px;
+  object-fit: contain; */
+}
+/* hero section */
+body.dark-theme .hero-section {
+  background-color: #262626;
+}
+
+body.dark-theme .hero-section-text h1,
+body.dark-theme .hero-section-text p {
+  color: #fff;
+}
+
+/* Designed For Tomorrow */
+body.dark-theme .feature-item:hover {
+  background-color: #292d32;
+  color: #fff !important;
+}
+body.dark-theme .item1_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .box1_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .box6_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .item4_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .item7_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+/* body.dark-theme .rezorSwapBg {
+  content: url("../images/images/rezorSwapUpdated.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+body.dark-theme .rezorWalletBG {
+  content: url("../images/images/rezorWalletUpdated.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+} */
+body.dark-theme .list4_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .list1_img img {
+  content: url(../images/images/dark-mode/cpu-charge.png);
+}
+body.dark-theme .item2_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .list2_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .list5_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .box2_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .box4_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .box7_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .item5_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .item8_img img {
+  content: url(../images/images/dark-mode/interoperability-dark.png);
+}
+body.dark-theme .item3_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .list3_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .box3_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .box5_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .box8_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .item6_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .item9_img img {
+  content: url(../images/images/dark-mode/cryptographic_dark_mode.png);
+}
+body.dark-theme .feature-item h5,
+body.dark-theme .feature-item p,
+body.dark-theme .numbers_bg_subtract h3,
+body.dark-theme .statistical_landscape h2 {
+  color: #fff !important;
+}
+
+/* Whats In It */
+body.dark-theme .heading_whats_in_it p,
+body.dark-theme .whats_in_it_box h5,
+body.dark-theme .whats_in_it_box p,
+body.dark-theme .transaction_fee h2,
+body.dark-theme .unique_products_content p,
+body.dark-theme .rezor_blog_content p,
+body.dark-theme .blog_div h4,
+body.dark-theme .saita_pro_img h2,
+body.dark-theme .x_bridge_img h2,
+body.dark-theme .saita_card_img h2,
+body.dark-theme .saita_pro_img p,
+body.dark-theme .x_bridge_img p,
+body.dark-theme .saita_card_img p {
+  color: #fff;
+}
+body.dark-theme .whats_in_it_box:active,
+body.dark-theme .whats_in_it_box:hover,
+body.dark-theme .transaction_fee,
+body.dark-theme .statistical_landscape,
+body.dark-theme .rezor_list1:hover,
+body.dark-theme .rezor_list:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(38, 38, 38, 1) 35%,
+    rgba(41, 45, 50, 1) 100%
+  );
+  border: 1px solid #292d32;
+}
+body.dark-theme .blog_div {
+  border: 1px solid #292d32;
+}
+body.dark-theme .left-shape img {
+  content: url(../images/images/dark-mode/tomorrow_design_dark.png);
+}
+body.dark-theme .whats_in_it_box:hover img {
+  background-color: #3d84ff !important;
+}
+
+/* Numbers We Trust */
+body.dark-theme .numbers_bg_subtract {
+  background-image: url(../images/images/dark-mode/number_we_trust_dark.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 405px;
+  padding: 50px;
+}
+body.dark-theme .rezor_subtract_button {
+  bottom: 0px;
+}
+body.dark-theme .numbers_bg_subtract p,
+body.dark-theme .transaction_fee h4,
+/* body.dark-theme .block_size_content p, */
+body.dark-theme .transaction_rate_content1 h4,
+body.dark-theme .transaction_rate_content1 p,
+body.dark-theme .rezor_coin_content p,
+body.dark-theme .rezor_list1 h6,
+body.dark-theme .rezor_list h6,
+body.dark-theme .blog_div p {
+  color: #e5e5e5;
+}
+body.dark-theme .whitepaper_button {
+  background: transparent;
+}
+
+/* Unique products */
+body.dark-theme .unique_products_bg {
+  background: #282c30;
+  /* border: 1px solid #eef5ff; */
+}
+
+/* blog */
+body.dark-theme .blog_div .blog_img {
+  content: url(../images/images/dark-mode/blog_img_dark_mode.png);
+}
+
+/* Responsive */
+@media (max-width: 350px) {
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img,
+  body.dark-theme .saita_card {
+    height: 336px !important;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 150px;
+    padding: 15px;
+    display: none;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 39% !important;
+    left: 16px !important;
+    font-size: 12px;
+  }
+  body.dark-theme .button_numbers_trust button.whitepaper_button {
+    width: 150px;
+    padding: 10px 16px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: -5px;
+  }
+}
+@media (min-width: 350px) and (max-width: 400px) {
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img,
+  body.dark-theme .saita_card {
+    height: 400px !important;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 172px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 40% !important;
+    left: 13px !important;
+    font-size: 13px;
+  }
+  body.dark-theme .button_numbers_trust button.whitepaper_button {
+    width: 170px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 430px) {
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img,
+  body.dark-theme .saita_card {
+    height: 450px !important;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 41% !important;
+    left: 20px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Margin */
+  body.dark-theme .margin-top-150 {
+    margin-top: 100px;
+  }
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section {
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 20px;
+    margin-top: -17px;
+    line-height: 20px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: -223px;
+    top: -131px;
+  }
+  body.dark-theme .hero-ellipse-back {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 450px;
+    z-index: 2px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 27px;
+    line-height: 10.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 50px;
+    line-height: 73.2px;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 30px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 22px !important;
+    line-height: 30.6px !important;
+    margin-top: 10px !important;
+  }
+  body.dark-theme .numbers_bg_subtract p {
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 750px !important;
+    padding: 24px !important;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_mobile.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px !important;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 0px;
+    /* display: none; */
+  }
+  body.dark-theme .transaction_fee {
+    margin-top: 25px !important;
+  }
+  /* .transaction_rate_content1{
+    margin-top: 40px;
+  } */
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px !important;
+  }
+  body.dark-theme .transaction_fee .transaction_img img {
+    content: url("../images/images/transaction_fee_img.png");
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px !important;
+  }
+  /* .block_size_content {
+      margin-top: 30px;
+    } */
+  body.dark-theme .block_size_content {
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 165px !important;
+    padding: 20px !important;
+    margin-top: 25px !important;
+  }
+  body.dark-theme .block_size_img {
+    top: -3px !important;
+    right: 0px !important;
+  }
+  body.dark-theme .block_size_content p {
+    font-size: 16px !important;
+  }
+  body.dark-theme .block_size_content h2 {
+    font-size: 27px !important;
+    line-height: 27px !important;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 50px !important;
+    line-height: 64px !important;
+    text-align: center !important;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png);
+  }
+
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+
+  body.dark-theme .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px !important;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    /* height: 500px !important; */
+    padding: 34px !important;
+    margin-top: 20px !important;
+    border-radius: 20px !important;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px !important;
+    line-height: 41.7px !important;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    position: fixed;
+    top: 57%;
+    left: 61%;
+    transform: translateX(-50%);
+    display: none;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 39%;
+    left: 3px;
+  }
+  body.dark-theme .blog_div {
+    margin-top: 40px;
+  }
+  body.dark-theme .blog_div .blog_box {
+    padding: 30px 24px 30px 24px;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px !important;
+    padding: 30px !important;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    position: absolute;
+    right: 0px;
+    /* bottom: 8rem; */
+    width: 474px;
+    top: 26rem;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 445px) {
+  body.dark-theme .transaction_fee {
+    margin-top: 70px !important;
+  }
+}
+
+@media (min-width: 445px) and (max-width: 460px) {
+  body.dark-theme .transaction_fee {
+    margin-top: 90px !important;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 460px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px !important;
+  } */
+
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 450px !important;
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px !important;
+    margin-top: -65px !important;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 875px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_fee .transaction_img img {
+    content: url("../images/images/transaction_fee_img.png");
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    /* padding-top: 41px !important; */
+    right: 0px;
+    top: 0px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee {
+    margin-top: 50px;
+  }
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+    bottom: 0px;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 140px;
+    padding: 10px;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    width: 300px;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 60px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    padding: 10px;
+    width: 132px;
+  }
+  body.dark-theme .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  body.dark-theme .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 41%;
+    left: 25px;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 49%;
+    width: 100%;
+  }
+}
+
+/* Iphone Responsive styles */
+@media (min-width: 460px) and (max-width: 500px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 450px;
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    padding: 10px;
+    width: 140px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+    bottom: 0px;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    width: 300px;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 60px;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    width: 143px;
+    padding: 10px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 42%;
+    left: 40px;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 44%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 450px;
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 875px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_mobile.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .block_size_img {
+    top: 15px;
+    right: 27px;
+    top: 20px;
+    right: 38px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+    bottom: 0px;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 166px;
+    padding: 14px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 60px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 0px 50px 0px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 4px;
+    bottom: 0px;
+  }
+  body.dark-theme .saita_card_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_pro_button .whitepaper_button {
+    width: 152px;
+    padding: 14px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 51%;
+    left: 60px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 41%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 600px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-light-mobile.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_mobile.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 160px;
+    padding: 10px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 85px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    width: 140px;
+    padding: 10px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 50%;
+    left: 50px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 45%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px; */
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  /* body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  } */
+  body.dark-theme .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 85px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 160px;
+    padding: 10px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    width: 160px;
+    padding: 10px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 45%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 700px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+
+  /* Hero Section Responsive Style */
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_tab.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 85px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 160px;
+    padding: 10px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    width: 160px;
+    padding: 12px 15px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 45%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 744px) {
+  /* Home Page Responsive */
+  body.dark-theme .container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+  body.dark-theme .navbar .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-responsive.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1000px;
+      background-position: center; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 30px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .left-shape img {
+    height: 410px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 452px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_tab.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_fee .transaction_img img {
+    content: url("../images/images/transaction_fee_img.png");
+  }
+  body.dark-theme .block_size_img {
+    top: 20px;
+    right: 18px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 85px;
+  }
+  body.dark-theme .rezor_subtract_button .whitepaper_button {
+    width: 160px;
+    padding: 10px;
+  }
+  body.dark-theme .rezor_subtract_button {
+    bottom: 0px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    width: 150px;
+    padding: 13px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: -20px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url("../images/images/bells_rings_power.png");
+    top: 45%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 744px) and (max-width: 800px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 700px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    object-fit: cover;
+    /* height: 450px; */
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  /* body.dark-theme .whitepaper_button {
+    width: 16em;
+  } */
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    /* margin: 0px 30px; */
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .transaction_fee .transaction_img img {
+    content: url("../images/images/transaction_fee_img.png");
+  }
+  body.dark-theme .transaction_fee_content {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 90px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 0px;
+    bottom: 0rem;
+  }
+  body.dark-theme .saita_pro_button .whitepaper_button,
+  body.dark-theme .x_bridge_button .whitepaper_button,
+  body.dark-theme .saita_card_button .whitepaper_button {
+    padding: 15px;
+    width: 180px;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 26px;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 700px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16em;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 90px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+@media (min-width: 850px) and (max-width: 900px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 700px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section {
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 90px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 950px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 700px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 90px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 992px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 800px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    content: url(../images/images/hero-section-ipad.png);
+    position: absolute;
+    bottom: 0px;
+    /* width: 650px; */
+    left: 50%;
+    /* object-fit: cover; */
+    /* height: 450px; */
+    transform: translateX(-50%);
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/numbers_we_trust_dark_mode.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 110px;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block_size_bg_responsive.png);
+    padding: 65px 40px;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 12rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_coin_list {
+    margin-top: 90px;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    background: transparent;
+    border: 0px;
+    margin-top: 35px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 850px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16em;
+  }
+
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  /* body.dark-theme .numbers_bg_subtract {
+    height: 729px;
+    padding: 24px;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_tab.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover !important;
+    border-radius: 20px;
+  } */
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .button_numbers_trust button.whitepaper_button {
+    width: 19em;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  body.dark-theme .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  body.dark-theme .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 850px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-ellipse-top {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 0rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png) !;
+  }
+  body.dark-theme .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  body.dark-theme .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  /* body.dark-theme .container.custom-container {
+    max-width: 850px;
+  } */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 25px;
+  }
+  /* body.dark-theme .navbar-brand img {
+    width: 100px;
+  } */
+
+  /* Hero section */
+  body.dark-theme .hero-section-text h1 {
+    font-size: 24px;
+    margin-top: -65px;
+    line-height: 24px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section {
+    /* background-image: url(../images/images/hero-section-mask-ipad.png);
+      background-size: cover;
+      background-repeat: no-repeat; */
+    height: 924px;
+  }
+  body.dark-theme .hero-section-mask img {
+    /* content: url(../images/images/hero-section-ipad.png); */
+    position: absolute;
+    bottom: 0px;
+    width: 575px;
+    /* object-fit: unset; */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  body.dark-theme .hero-section-text p {
+    margin-top: 20px;
+  }
+  /* Design for Tomorrow Section Responsive style*/
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  body.dark-theme .tomorrow-section-content {
+    margin: 0px 30px;
+  }
+
+  body.dark-theme .feature-item p {
+    margin-top: 12px;
+  }
+  body.dark-theme .left-shape img {
+    height: 500px;
+    width: 100%;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item .icon {
+    margin-right: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-list {
+    padding-right: 5px;
+    height: 325px;
+  }
+  body.dark-theme .feature-item p {
+    display: none; /* Hide descriptions */
+  }
+
+  body.dark-theme .feature-item.active p {
+    display: block; /* Show only active item */
+  }
+
+  /* Whats In It Section Responsive Style */
+  body.dark-theme .row.row_whats_in_it .col-md-3 {
+    width: 50%;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 20px;
+  }
+  body.dark-theme .row_whats_in_it {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar {
+    width: 2px;
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    box-shadow: 0px 0px 11.8px 0px #0000001a;
+    width: 10px;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .row_whats_in_it::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 10px; */
+  }
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding-left: 0px;
+  }
+  body.dark-theme .heading_whats_in_it p {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  body.dark-theme .whats_in_it_box {
+    margin-top: 25px;
+    width: 277px;
+  }
+
+  /* Marquee Section Style */
+  body.dark-theme .promo-lines {
+    min-height: 225px;
+    margin-top: 0px;
+    overflow-y: hidden;
+  }
+  body.dark-theme .line-violet,
+  body.dark-theme .line-red {
+    height: 85px;
+  }
+  body.dark-theme .line-text {
+    font-size: 48px;
+  }
+  body.dark-theme .line-red {
+    top: 135px;
+  }
+
+  /* Numbers We Trust */
+  body.dark-theme .numbers_we_trust {
+    margin-top: 20px;
+  }
+  body.dark-theme .numbers_bg_subtract h2 {
+    font-size: 55px;
+    line-height: 64px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 33px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .transaction_img {
+    right: 0px;
+    position: absolute;
+  }
+  body.dark-theme .button_numbers_trust {
+    bottom: 6px;
+  }
+  body.dark-theme .transaction_fee,
+  body.dark-theme .statistical_landscape {
+    margin-top: 25px;
+  }
+  body.dark-theme .statistical_landscape {
+    height: 164px;
+  }
+  body.dark-theme .statistical_landscape h2 {
+    font-size: 36px;
+    line-height: 36.42px;
+  }
+  body.dark-theme .block_size.position-relative {
+    margin-bottom: -25px;
+  }
+  body.dark-theme .block_size_img {
+    top: 40px;
+    right: 35px;
+  }
+  body.dark-theme .block_size_content {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: url(../images/images/block-size-bg.png);
+    padding: 135px 16px;
+    /* height: 400px; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: right;
+  }
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 36px;
+  }
+  body.dark-theme .transaction_rate_content1 {
+    padding: 30px 2rem;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 20px;
+  }
+  /* Rezor Coins Section Style */
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    content: url(../images/images/dark-mode/rezor_coin_dark.png);
+  }
+  body.dark-theme .rezor_coin_content {
+    margin-top: -45px;
+  }
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_coin_content p {
+    text-align: center;
+    font-size: 16px;
+    width: 465px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_subtract_button {
+    right: 3rem;
+  }
+  body.dark-theme .rezor_coin_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_subtract_img .rezor_coin_img {
+    height: auto;
+    width: 100%;
+  }
+  body.dark-theme .rezor_list1 h6,
+  body.dark-theme .rezor_list h6 {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .rezor_list1 h6 br,
+  body.dark-theme .rezor_list h6 br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1 {
+    background: transparent;
+    border: 0px;
+    margin-top: 75px;
+  }
+
+  /* Unique Product Responsive Style */
+  body.dark-theme .unique_products_bg {
+    padding: 0px 10px 50px 10px;
+    margin-top: 35px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .unique_products_content p {
+    width: 300px;
+    margin: 0px auto;
+  }
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png) !;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img {
+    background-image: url(../images/images/dark-mode/saita_pro_dark_mode.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 428px;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 32px;
+    line-height: 41.7px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body.dark-theme .saita_pro_button,
+  body.dark-theme .x_bridge_button,
+  body.dark-theme .saita_card_button {
+    right: 15px;
+    bottom: 1rem;
+  }
+  body.dark-theme .user_numbers h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  body.dark-theme .user_numbers h3 {
+    font-size: 130px;
+    line-height: 130px;
+  }
+  /* rezor Blog Section Css */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  body.dark-theme .blog_div p.date {
+    top: 49%;
+    left: 35px;
+  }
+  body.dark-theme .blog_div {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin-top: 80px;
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-theme .blog_div .blog_img {
+    height: 360px;
+    width: 100%;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates {
+    background: linear-gradient(
+      161deg,
+      rgba(61, 132, 255, 1) 35%,
+      rgba(26, 245, 175, 1) 100%
+    );
+    height: 863px;
+    border-radius: 20px;
+    padding: 55px 30px;
+  }
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+  body.dark-theme .rezor_updates_content p {
+    text-align: center;
+  }
+  body.dark-theme input#exampleFormControlInput1 {
+    width: 100%;
+  }
+  body.dark-theme .bells_rezor img {
+    content: url(../images/images/bells_rings_power.png);
+    top: 31%;
+    width: 581px;
+    right: 25px;
+  }
+
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png) !;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* body.dark-theme .custom-container {
+    max-width: 960px !important;
+  } */
+  /* navbar Style */
+  body.dark-theme .navbar .navbar-nav {
+    gap: 20px;
+  }
+
+  /* Hero Section */
+  body.dark-theme .hero-section-mask {
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    bottom: 0px;
+  }
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section-text h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  body.dark-theme .hero-section-text span.blockchain_text {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  /* tomorrow section */
+  body.dark-theme .tomorrow-section-content h2 {
+    font-size: 35px;
+    line-height: 40.6px;
+  }
+  body.dark-theme .tomorrow-section-content span.tomorrow-highlight {
+    font-size: 80px;
+    line-height: 85.8px;
+  }
+  body.dark-theme .left-shape img {
+    height: 700px;
+  }
+  body.dark-theme .feature-item {
+    padding: 18px;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  /* whats in it */
+  body.dark-theme .heading_whats_in_it h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  body.dark-theme .whats_in_it_box {
+    width: 100%;
+    padding: 30px 15px;
+  }
+  body.dark-theme .whats_in_it_box h5 br {
+    display: none;
+  }
+  body.dark-theme .whats_in_it_box h5 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  body.dark-theme .numbers_bg_subtract p,
+  body.dark-theme .transaction_fee h4,
+  body.dark-theme .block_size_content p,
+  body.dark-theme .transaction_rate_content1 h4 {
+    font-size: 19px;
+    line-height: 27.2px;
+  }
+  body.dark-theme .numbers_bg_subtract h2,
+  body.dark-theme .rezor_coin_content h2 {
+    font-size: 63px;
+    line-height: 63px;
+  }
+  body.dark-theme .numbers_bg_subtract h3 {
+    font-size: 38px;
+    line-height: 41px;
+  }
+  body.dark-theme .numbers_bg_subtract {
+    height: 350px;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 11em;
+    padding: 15px;
+  }
+
+  body.dark-theme .transaction_fee h2,
+  body.dark-theme .block_size_content h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  body.dark-theme .block_size_img {
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 70px;
+  }
+
+  /* Rezor Coin */
+  body.dark-theme .rezor_coin_content p br,
+  body.dark-theme .unique_products_content p br {
+    display: none;
+  }
+  body.dark-theme .rezor_list1,
+  body.dark-theme .rezor_list {
+    padding: 18px 20px;
+  }
+
+  /* Unique Products */
+  body.dark-theme .saita_pro_img h2,
+  body.dark-theme .x_bridge_img h2,
+  body.dark-theme .saita_card_img h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  body.dark-theme .saita_pro_img p,
+  body.dark-theme .x_bridge_img p,
+  body.dark-theme .saita_card_img p {
+    font-size: 25px;
+    line-height: 41.6px;
+  }
+  body.dark-theme .unique_products_content h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  body.dark-theme .saita_pro_img,
+  body.dark-theme .x_bridge_img,
+  body.dark-theme .saita_card {
+    /* height: 526px; */
+  }
+  body.dark-theme .user_numbers h2 {
+    font-size: 150px;
+    line-height: 170px;
+  }
+
+  body.dark-theme .user_numbers h3 {
+    font-size: 150px;
+    line-height: 60px;
+  }
+
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png) !;
+  }
+
+  /* Rezor Blogs */
+  body.dark-theme .rezor_blog_content h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  body.dark-theme .blog_div p.date {
+    font-size: 13px;
+    top: 42%;
+    left: 9px;
+  }
+  body.dark-theme .blog_div .blog_box {
+    padding: 20px 20px 25px 20px;
+  }
+  body.dark-theme .blog_div h4 {
+    font-size: 18px;
+  }
+  body.dark-theme .blog_div .description_blog {
+    font-size: 14px;
+  }
+
+  /* Rezor Updates */
+  body.dark-theme .rezor_updates_content h2 {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  body.dark-theme .bells_rezor img {
+    width: 45%;
+  }
+  body.dark-theme .tomorrow-section-content {
+    padding-left: 60px;
+  }
+  /* footer */
+  body.dark-theme .footer_logo h2 {
+    font-size: 25px;
+    line-height: 31.9px;
+    margin-top: 60px;
+  }
+  .footer_bottom {
+    position: relative;
+    bottom: -1em;
+    width: 100%;
+  }
+  .footer_bottom > div {
+    justify-content: space-evenly;
+  }
+  body.dark-theme .footer {
+    padding: 40px 150px 0px;
+    margin: 0px 20px;
+  }
+  body.dark-theme .forms_text h3 {
+    font-size: 16px;
+  }
+  body.dark-theme .forms_text h6 {
+    font-size: 14px;
+  }
+  body.dark-theme #subscribe_mail {
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+  }
+  /* .footer_bottom .row{
+      margin-top: 40px
+    } */
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 17px;
+  }
+  body.dark-theme .feature-item p {
+    margin-top: 18px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* body.dark-theme .custom-container {
+    max-width: 1140px !important;
+  } */
+
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png) !;
+  }
+  body.dark-theme .tomorrow-section-content {
+    padding-left: 45px;
+  }
+  body.dark-theme .feature-item p br {
+    display: none;
+  }
+  body.dark-theme .feature-item h5 {
+    font-size: 17px;
+  }
+  body.dark-theme .feature-item p {
+    margin-top: 18px;
+  }
+  /* .hero-section-mask {
+      position: absolute;
+      right: 100px;
+      width: 700px;
+  bottom:0px;
+    } */
+  body.dark-theme .hero-section .whitepaper_button {
+    width: 200px;
+  }
+  body.dark-theme .hero-section-mask {
+    position: absolute;
+    right: 95px;
+    width: 800px;
+    bottom: 0px;
+  }
+  body.dark-theme .hero-section {
+    height: 780px;
+    padding: 10px;
+  }
+  body.dark-theme img.numbers_svg {
+    display: none;
+  }
+}
+/* body.dark-theme .btn-close {
+  color: white !important;
+} */
+
+body.dark-theme .rezor_subtract_img img {
+  content: url(../images/images/dark-mode/rezor_coin_subtract_dark.png);
+}
+body.dark-theme .navdropdownitem img {
+  content: url(../images/images/dark-mode/arrow-right-fordark.png);
+}
+body.dark-theme .menuImageForDark {
+  content: url(../images/images/dark-mode/menu_dark.png);
+}
+body.dark-theme .menu-text {
+  color: white;
+}
+body.dark-theme .circle.active {
+  background-color: transparent;
+  background: white !important;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px #20252a, 0 0 0 6px white;
+}
+
+body.dark-theme .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+  background: #20252a;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #737373;
+  width: auto;
+}
+
+body.dark-theme .dropdown-item {
+  color: #fff;
+  padding: 10px;
+
+  font-size: 14px;
+}
+body.dark-theme .dropdown-item:hover {
+  /* color: #3d84ff; */
+  background-color: #737373;
+}
+body.dark-theme .numbers_bg_subtract {
+  /* padding: 24px !important; */
+  background-image: url(../images/images/dark-mode/number_we_trust_dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: 20px !important;
+  margin-bottom: 5%;
+}
+
+body.dark-theme .whitepaper_button {
+  padding: 15px 6%;
+  width: 12vw;
+  /* width: 185px; */
+  border: 1px solid var(--buttons-bg-color);
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  color: var(--buttons-bg-color);
+  font-size: 14px;
+  line-height: 18.2px;
+  gap: 10px;
+}
+body.dark-theme .whitepaper_button_new {
+  border: 1px solid var(--buttons-bg-color);
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  color: var(--buttons-bg-color);
+}
+body.dark-theme .whitepaper_button_coin {
+  border: 1px solid var(--buttons-bg-color);
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  color: var(--buttons-bg-color);
+}
+body.dark-theme .button_numbers_trust_new {
+  width: 17%;
+  position: absolute;
+  bottom: 1%;
+  right: -1%;
+}
+body.dark-theme .rezor_subtract_button_coin {
+  width: 37%;
+  position: absolute;
+  right: -2%;
+  bottom: -1%;
+}
+
+body.dark-theme .whitepaper_button_coin {
+  padding: 8% 6%;
+}
+
+/*  1400px  */
+@media (max-width: 1400px) {
+  .rezor_subtract_button_coin {
+    width: 34%;
+    position: absolute;
+    right: 2%;
+    bottom: 9%;
+  }
+}
+@media (max-width: 1200px) {
+  body.dark-theme .button_numbers_trust_new {
+    /* width: 15%; */
+  }
+  body.dark-theme .rezor_subtract_button_coin {
+    width: 34%;
+    position: absolute;
+    right: 1%;
+    bottom: 0%;
+  }
+  .rezor_subtract_button_coin {
+    width: 34%;
+    position: absolute;
+    right: 2%;
+    bottom: 0%;
+  }
+  .rezorWalletButtonDiv {
+    width: 35%;
+    position: absolute;
+    right: 0%;
+    bottom: 2%;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 16vw;
+  }
+}
+
+body.dark-theme .rezorWalletSwap {
+  background-color: #292c30;
+}
+
+/* 900px  */
+@media (max-width: 992px) {
+  body.dark-theme .numbers_bg_subtract {
+    height: 815px !important;
+    padding: 24px !important;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_tab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% !important;
+    border-radius: 20px !important;
+  }
+  body.dark-theme .button_numbers_trust_new {
+    width: 34%;
+    position: absolute;
+    bottom: 1%;
+    right: -1%;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 25vw;
+  }
+  body.dark-theme .rezor_subtract_button_coin {
+    width: 35%;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+  }
+  .rezor_subtract_button_coin {
+    width: 39%;
+    position: absolute;
+    right: 1%;
+    bottom: -2%;
+  }
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_dark_tab.png);
+  }
+  .rezor_subtract_img img {
+    content: url(../images/images/rezor_coin_subtract_tablet.png);
+  }
+}
+
+@media (max-width: 750px) {
+  body.dark-theme .rezorWalletButtonDiv {
+    width: 40%;
+    position: absolute;
+    right: -2%;
+    bottom: 3%;
+  }
+  body.dark-theme .rezor_subtract_button_coin {
+    width: 39%;
+    position: absolute;
+    right: 1%;
+    bottom: -1%;
+  }
+
+  body.dark-theme .user_numbers h2 {
+    font-size: 63px;
+    line-height: 120px;
+  }
+  body.dark-theme .user_numbers h3 {
+    font-size: 90px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.dark-theme .numbers_bg_subtract {
+    height: 830px !important;
+    padding: 24px !important;
+    background-image: url(../images/images/dark-mode/number_we_trust_dark_mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% !important;
+    border-radius: 20px !important;
+  }
+  body.dark-theme .button_numbers_trust_new {
+    width: 55%;
+  }
+  body.dark-theme .whitepaper_button {
+    width: 30vw;
+  }
+}
+@media (max-width: 600px) {
+  .rezorWalletButtonDiv {
+    width: 35%;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+  }
+  /* body.dark-theme .rezor_subtract_button_coin {
+    width: 40%;
+    position: absolute;
+    right: -2%;
+    bottom: 3%;
+  } */
+  .rezorWalletButton {
+    width: 117%;
+  }
+}
+
+@media (max-width: 552px) {
+  body.dark-theme .rezorWalletButtonDiv {
+    width: 50%;
+    position: absolute;
+    right: 9%;
+    bottom: 4%;
+  }
+}
+@media (max-width: 550px) {
+  .rezorWalletButtonDiv {
+    width: 50%;
+    position: absolute;
+    right: 11%;
+    bottom: 3%;
+  }
+  .rezorWalletButton {
+    width: 117%;
+  }
+}
+
+@media (max-width: 450px) {
+  body.dark-theme .rezor_subtract_img img {
+    content: url(../images/images/dark-mode/rezor_coin_subtract_mobile_dark.png);
+  }
+  .rezor_subtract_img img {
+    content: url(../images/images/rezor_coin_subtract_mobile.png);
+  }
+  body.dark-theme .rezor_subtract_button_coin {
+    width: 60%;
+    position: absolute;
+    right: 9%;
+    bottom: -1%;
+  }
+  .rezor_subtract_button_coin {
+    width: 60%;
+    position: absolute;
+    right: 9%;
+    bottom: -1%;
+  }
+}
+
+body.dark-theme .rezorWalletButton {
+  background-color: transparent;
+}
+body.dark-theme .rezorSwapBg h2 {
+  color: white;
+}
+
+body.dark-theme .user_numbers h2 {
+  color: #282c30;
+  background: -webkit-linear-gradient(-90deg, #1af5af 5%, #eef5ffbc 91%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  opacity: 0.8;
+}
+
+/* rezor wallet Landing  Page Dark Mode Css */
+body.dark-theme .main-wrapper .custom-container {
+  max-width: 1438px !important;
+}
+
+body.dark-theme .main-wrapper {
+  background-color: #171717;
+  color: #fff;
+}
+/* navbar */
+body.dark-theme .main-wrapper .navbar,
+body.dark-theme .main-wrapper #offcanvasNavbar {
+  background-color: #262626 !important;
+}
+
+body.dark-theme .main-wrapper .navbar .nav-link,
+body.dark-theme .main-wrapper .navbar-nav .dropdown-item {
+  color: #fff;
+}
+
+body.dark-theme .main-wrapper .dropdown-item:hover {
+  /* background-color: #262626; */
+}
+body.dark-theme .main-wrapper .navdropdownitem img {
+  content: url(../images/images/RezorWalletImages/navbar-dropdown-dark.svg);
+}
+body.dark-theme .main-wrapper .navbar-brand img {
+  /* content: url(../images/images/RezorWalletImages/white-logo.svg);
+  width: 62%; */
+}
+/* body.dark-theme .main-wrapper .offcanvas {
+  background-color: #262626;
+  color: #fff;
+} */
+body.dark-theme .main-wrapper .menuImageForDark {
+  content: url(../images/images/RezorWalletImages/menu_dark.png);
+}
+body.dark-theme .main-wrapper #modeIcon {
+  content: url(../images/images/RezorWalletImages/modeToggleDark.svg);
+}
+body.dark-theme .main-wrapper .navbar-nav .dropdown-menu {
+  /* background: #161616;
+  border: 1px solid #161616; */
+}
+
+/* first section */
+body.dark-theme .main-wrapper .crypto-app-div {
+  background: #171717;
+}
+body.dark-theme .main-wrapper .scan-code {
+  background: #171717;
+}
+
+body.dark-theme .main-wrapper .crypto-app-bg {
+  background-color: #262626;
+}
+body.dark-theme .main-wrapper .background-vector {
+  background-image: url(../images/images/RezorWalletImages/first-section/vector-bg-dark-mode.png);
+  bottom: 0px;
+}
+body.dark-theme .main-wrapper .h2_crypto,
+body.dark-theme .main-wrapper .paragraph,
+body.dark-theme .main-wrapper .discover_h1,
+body.dark-theme .main-wrapper .wallet-box-p,
+body.dark-theme .main-wrapper .get_started_h1,
+body.dark-theme .main-wrapper h3.begin-crypto-h3,
+body.dark-theme .main-wrapper .color-paragraph,
+body.dark-theme .main-wrapper .get_in_touch_h3,
+body.dark-theme .main-wrapper .get_in_touch_p {
+  color: #fff;
+}
+
+/* second section */
+body.dark-theme .main-wrapper .icon_1_wallet img {
+  content: url(../images/images/RezorWalletImages/second-section/wallet_box_1_dark_mode.svg);
+}
+body.dark-theme .main-wrapper .icon_2_wallet img {
+  content: url(../images/images/RezorWalletImages/second-section/wallet_box_new_2_dark_mode.svg);
+}
+body.dark-theme .main-wrapper .icon_3_wallet img {
+  content: url(../images/images/RezorWalletImages/second-section/wallet_box_new_3_dark_mode.svg);
+}
+body.dark-theme .main-wrapper .icon_4_wallet img {
+  content: url(../images/images/RezorWalletImages/second-section/wallet_box_new_3_dark_mode.svg);
+}
+body.dark-theme .main-wrapper .icon_5_wallet img {
+  content: url(../images/images/RezorWalletImages/second-section/wallet_box_new_4_dark_mode.svg);
+}
+body.dark-theme .main-wrapper .stars_col_image img {
+  content: url(../images/images/RezorWalletImages/second-section/stars-2-dark-mode.png);
+}
+
+/* third section */
+body.dark-theme .main-wrapper .get-started-img img {
+  content: url(../images/images/RezorWalletImages/third-section/get_started_image_dark_mode_croped.png);
+}
+body.dark-theme .main-wrapper .begin-crypto-img img {
+  content: url(../images/images/RezorWalletImages/fifth-section/crypto-experience-dark-mode-desktop.svg);
+}
+/* sixth section */
+body.dark-theme .main-wrapper .get_in_touch_img .touch-img1 {
+  content: url(../images/images/RezorWalletImages/sixth-section/get-in-touch-dark-mode.png);
+}
+body.dark-theme .main-wrapper .floating_form input {
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+body.dark-theme .main-wrapper .form-floating label {
+  color: #fff;
+}
+body.dark-theme .main-wrapper .stars_img img {
+  content: url(../images/images/RezorWalletImages/second-section/stars-2-dark-mode.png);
+}
+/* responsive */
+@media only screen and (max-width: 992px) {
+  /* first section */
+  body.dark-theme .main-wrapper .main-container,
+  body.dark-theme .main-wrapper .section-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .main-wrapper .crypto-app-bg {
+    background-image: url(../images/images/RezorWalletImages/first-section/cypto-bg-ipad-dark.png);
+  }
+  body.dark-theme .main-wrapper .background-vector {
+    background-image: url(../images/images/RezorWalletImages/first-section/vector-bg-dark-mode.png);
+    top: auto;
+    bottom: 0%;
+    background-size: 100% 100%;
+    height: 62%;
+  }
+  body.dark-theme .main-wrapper .get-started {
+    margin-top: 25em;
+  }
+  body.dark-theme .main-wrapper .get_started_h1 {
+    margin-top: 2.5em;
+  }
+  /* sixth section */
+  body.dark-theme .main-wrapper .get-in-touch-handshake {
+    bottom: -9%;
+  }
+  body.dark-theme .main-wrapper .get-in-touch-handshake img {
+    display: block;
+    content: url(../images/images/RezorWalletImages/sixth-section/handshake-ipad-dark.png);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* first section */
+  body.dark-theme .main-wrapper .section-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  body.dark-theme .main-wrapper .crypto-app-bg {
+    background-image: none;
+    background-color: #262626;
+  }
+  body.dark-theme .main-wrapper .background-vector {
+    background-image: url(../images/images/RezorWalletImages/first-section/vector-bg-mobile.png);
+  }
+
+  /* sixth section */
+  body.dark-theme .main-wrapper .get-in-touch-handshake {
+    bottom: 1%;
+  }
+  body.dark-theme .main-wrapper .get-in-touch-handshake img {
+    display: block;
+    content: url(../images/images/RezorWalletImages/sixth-section/handshake_svg.svg);
+  }
+  body.dark-theme .main-wrapper .get_started_h1 {
+    margin-top: 2em;
+  }
+  body.dark-theme .main-wrapper .get-started {
+    margin-top: 15em;
+  }
+}
+
+/* Blog Description Dark Mode Css */
+body.dark-theme .blog-wrapper {
+  background-color: #171717;
+  color: #fff;
+}
+body.dark-theme .blog-wrapper .everything_dynamic {
+  background-image: url(../images/images/blogDescriptions/first-section/bg-first-section-dark-mode.png);
+}
+.paragraph_p_opacity {
+  background: linear-gradient(0deg, #41414161 0%, #ffffffa1 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark-theme .paragraph_p_opacity.show {
+  background: linear-gradient(0deg, #fff 0%, #fff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.dark-theme .paragraph_p_opacity.hidden {
+  background: linear-gradient(0deg, #41414161 0%, #ffffffa1 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.dark-theme .blog-wrapper .h2_heading_dynamic h2,
+body.dark-theme .blog-wrapper .paragraph_blockchain p,
+body.dark-theme .blog-wrapper .recent_post_heading,
+body.dark-theme .blog-wrapper .tag_post_heading,
+body.dark-theme .blog-wrapper .archive_post_heading,
+body.dark-theme .blog-wrapper .related_post_heading h3,
+body.dark-theme .blog-wrapper .related_post_heading_ipad h3,
+body.dark-theme .blog-wrapper .posts_div_h4,
+body.dark-theme .blog-wrapper .archives_div_h4 {
+  color: #fff;
+}
+body.dark-theme .blog-wrapper .tag_posts_div {
+  background-color: #414141;
+  color: white;
+}
+body.dark-theme .blog-wrapper .tag_posts_div:hover {
+  background-color: #fff;
+  color: #414141;
+}
+@media (max-width: 992px) {
+  body.dark-theme .blog-wrapper .custom-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  body.dark-theme .blog-wrapper .new-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* ////////////// SWAP DARK MODE */
+body.dark-theme .rezorSwap-wrapper .rezorswap-bg {
+  background: linear-gradient(149.47deg, #131c1a 3.23%, #0d221d 90.15%);
+}
+body.dark-theme .darkButton {
+  background-color: white;
+  color: black !important;
+}
+body.dark-theme .coin-div {
+  background-color: #262626;
+}
+body.dark-theme .rezorswap_heading_h1 {
+  color: #fff !important;
+}
+body.dark-theme .rezorSwap-wrapper .our_products_paragraph_p {
+  color: #fff !important;
+}
+body.dark-theme .rezorSwap-wrapper .heading_saitascan_h2 {
+  color: white;
+}
+body.dark-theme .all-time-value {
+  background: linear-gradient(108.54deg, #1b1b1b 6.47%, #262626 79.34%);
+}
+body.dark-theme .all-time-swappers {
+  background: linear-gradient(108.54deg, #1b1b1b 6.47%, #262626 79.34%);
+}
+body.dark-theme .rezor_swap_div {
+  background: linear-gradient(101.82deg, #1b1b1b 7.15%, #262626 92.79%);
+}
+body.dark-theme .rezorSwap-wrapper .saitascan_bg {
+  background: linear-gradient(101.82deg, #1b1b1b 7.15%, #262626 92.79%);
+}
+body.dark-theme .rezorSwap-wrapper .trading_chart_card {
+  background: linear-gradient(101.82deg, #1b1b1b 7.15%, #262626 92.79%);
+  border: 1px solid #262626;
+}
+body.dark-theme .rezor_swap_heading h4 {
+  color: white;
+}
+body.dark-theme .overview_p {
+  color: white;
+}
+body.dark-theme .volume_trading_h2 {
+  color: white;
+}
+body.dark-theme .activity_p {
+  color: white;
+}
+body.dark-theme .p_para_community {
+  color: white;
+}
+body.dark-theme .back-to-top p {
+  color: white;
+}
+body.dark-theme .copyright_content p {
+  color: white;
+}
+body.dark-theme .chart_selection {
+  background-color: #262626;
+}
+body.dark-theme .statisticks_div_black {
+  background-color: #262626;
+}
+body.dark-theme .trustedMillionDark {
+  background-color: #110f0f;
+}
+body.dark-theme .dropdownimgaHover:hover img {
+  content: url("../images/images/arrow-right-forlight-hover.png");
+}
+body.dark-theme .main-wrapper .scan-code::before,
+body.dark-theme .main-wrapper .scan-code::after {
+  box-shadow: 0 20px 0 0 #171717;
+}
+
+body.dark-theme .getintouchform > input {
+  background-color: transparent;
+  color: #fff;
+}
+body.dark-theme .getintouchform > textarea {
+  background-color: transparent;
+  color: #fff;
+}
+body.dark-theme .getintouchform > select {
+  background-color: transparent;
+  color: #fff;
+}
+

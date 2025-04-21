@@ -1,0 +1,125 @@
+@import "../../../../assets/theme/_var.scss";
+
+.buy_sell_modal {
+    @include theme() {
+        .modal-body {
+            padding: 0rem 1.4rem 2.4rem 2rem;
+        }
+
+        .nav {
+            background-color: theme-get("cardfieldBg");
+            padding: 0.4rem;
+            border-radius: 0.8rem;
+
+            .nav-item {
+                width: 50%;
+
+                .nav-link {
+                    width: 100%;
+                    font-family: $fontSecondry;
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                    line-height: 2.7rem;
+                    height: 4.8rem;
+                    border-radius: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    text-transform: capitalize;
+                    letter-spacing: 0em;
+                    color: theme-get("textclr");
+
+                    @media (max-width: 1479px) {
+                        font-size: 1.6rem;
+                        height: 4.2rem;
+                    }
+
+                    @media (max-width: 991px) {
+                        font-size: 1.4rem;
+                        height: 4rem;
+                    }
+
+                    &.active {
+                        background: $gradient;
+                        color: white;
+
+                        &.buy {
+                            background: $green;
+                        }
+
+                        &.sell {
+                            background: $danger;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+        .tab-content {
+            padding: 3rem 0 0;
+
+            form {
+                .common_input {
+                    label {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        button {
+                            font-family: $fontSecondry;
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            line-height: 1.8rem;
+                            border-radius: 5rem;
+                            letter-spacing: 0em;
+                            text-transform: uppercase;
+                            border: none;
+                            outline: none;
+                            color: theme-get("bodyBg");
+                            background-color: theme-get("textclr");
+                            width: 4rem;
+                            height: 2.2rem;
+                        }
+                    }
+
+
+                    .rightIcon {
+                        font-family: $fontSecondry;
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        line-height: 1.8rem;
+                        border-radius: 5rem;
+                        letter-spacing: 0em;
+                        color: theme-get("textclr");
+                    }
+                }
+
+                .amount_txt {
+                    font-family: $fontSecondry;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    line-height: 1.8rem;
+                    border-radius: 5rem;
+                    letter-spacing: 0em;
+                    text-align: right;
+                    margin: 0.8rem 0 4rem;
+                    color: rgba(theme-get("textclr"), 0.6);
+
+                    span {
+                        color: theme-get("textclr");
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .spinner-border.text-primary {
+        width: 100px;
+        height: 100px;
+        margin: 0px auto;
+    }
+}
