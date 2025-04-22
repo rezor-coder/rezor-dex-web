@@ -12,6 +12,7 @@ import PageNotFound from "./components/pages/PageNotFound/PageNotFound";
 import Errorpage from "./components/pages/ErrorPage/Errorpage";
 import TokenDashboard from "./components/pages/TokenDashboard/TokenDashboard";
 import Explorer from "./components/pages/Explorer/Explorer";
+import HomePage from "./components/pages/HomePage";
 
 const Application = () => {
   const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const Application = () => {
       ErrorBoundary: Errorpage,
       element: <Layout />,
       children: [
+        {
+          path: ROUTES.HOME,
+          element: <HomePage/>,
+        },
         {
           path: ROUTES.SWAP,
           // index: true,

@@ -51,6 +51,10 @@ const Sidebar = (props: propTypes) => {
       to: ROUTES.HOME,
     },
     {
+      label: "Swap",
+      to: ROUTES.SWAP,
+    },
+    {
       label: "Liquidity",
       to: ROUTES.LIQUIDITY,
     },

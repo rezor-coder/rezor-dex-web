@@ -235,15 +235,7 @@ export const BSC_TOKEN_LIST: TOKEN_DATA[] =
           decimals: 18,
           symbol: "BNB",
           icon: BNB,
-        },
-        {
-          name: "RezorChain",
-          address: "0xfC0b3e6D09566bA2Bb5F069Da59390EA001904Fb",
-          isNative: false,
-          decimals: 9,
-          symbol: "STC",
-          icon: RezorChain,
-        },
+        }
         {
           name: "Mazimatic",
           address: "0xcC12487954C2b0deA99F8f0b6Bf2Edd13779075a",
@@ -406,21 +398,6 @@ export const REZOR_TOKEN_LIST: TOKEN_DATA[] =
           icon: BNB,
         },
         {
-          name: "RezorChain",
-          address: "0x19Ae49B9F38dD836317363839A5f6bfBFA7e319A",
-          isNative: false,
-          decimals: 9,
-          symbol: "STC",
-          icon: RezorChain,
-        },{
-          name: "RezorChain Burn",
-          address: "0xe5c3029c20a0e5bba2ca778efd9cea9980f0abdc",
-          isNative: false,
-          decimals: 18,
-          symbol: "STCB",
-          icon: STB,
-        },
-        {
           name: "Mazimatic",
           address: "0x5B8650Cd999B23cF39Ab12e3213fbC8709c7f5CB",
           isNative: false,
@@ -483,14 +460,7 @@ export const REZOR_TOKEN_LIST: TOKEN_DATA[] =
 export const REZORCHAIN_TOKEN_LIST: TOKEN_DATA[] =
   envType !== "production"
     ? [
-        {
-          name: "RezorChain",
-          address: "0x1d98A34E975a9eB31f563B99705b37b769a2A41A",
-          isNative: true,
-          decimals: 18,
-          symbol: "STC",
-          icon: RezorChain,
-        },
+        
         {
           name: "Qwerty",
           address: "0x997C9d106cc5dD458e7E12FcC422e19357181e25",
@@ -501,14 +471,7 @@ export const REZORCHAIN_TOKEN_LIST: TOKEN_DATA[] =
         }
       ]
     : [
-        {
-          name: "RezorChain",
-          address: "0x69C7FC9d0f3a396153cC2709FC7A79378F0B8577",
-          isNative: true,
-          decimals: 18,
-          symbol: "STC",
-          icon: RezorChain,
-        },
+       
         {
           name: "MotionToken",
           address: "0x24eb9171FF4406db6b3EdA19ac2E9d53A843D101",
@@ -516,14 +479,6 @@ export const REZORCHAIN_TOKEN_LIST: TOKEN_DATA[] =
           decimals: 18,
           symbol: "MOTN",
           icon: motionToken,
-        },
-        {
-          name: "RezorChain Burn",
-          address: "0x249F08dAFD0275C488264Eb229116D41676bb7CD",
-          isNative: false,
-          decimals: 18,
-          symbol: "STCB",
-          icon: STB, 
         },
         {
           name: "Sleepy Joe",

@@ -15,8 +15,8 @@ export const EVENTS = {
 };
 
 export const ROUTES: { [key: string]: string } = {
-  // HOME: "/",
-  SWAP: "/",
+  HOME: "/",
+  SWAP: "/swap",
   SWAP_CARD: "/", 
   LIQUIDITY: "/liquidity",
   TRADE: "/trade",
