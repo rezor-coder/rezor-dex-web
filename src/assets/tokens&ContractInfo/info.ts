@@ -235,7 +235,7 @@ export const BSC_TOKEN_LIST: TOKEN_DATA[] =
           decimals: 18,
           symbol: "BNB",
           icon: BNB,
-        }
+        },
         {
           name: "Mazimatic",
           address: "0xcC12487954C2b0deA99F8f0b6Bf2Edd13779075a",
