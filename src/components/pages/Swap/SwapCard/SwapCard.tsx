@@ -575,7 +575,7 @@ const SwapCard = () => {
                 if (!walletAddress) {
                   setConnectWallet(true);
                 } else {
-                  navigate("/review-swap", {
+                  navigate("review-swap", {
                     state: {
                       tokenDetails,
                       selectedField,
