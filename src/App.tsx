@@ -67,6 +67,7 @@ function App() {
   };
 
   useEffect(() => {
+    console.log('build version v1');
     changeDefaultNetwork();
   }, [isWrongNetwork]);
   return (
