@@ -356,7 +356,7 @@ const Header = (props: propTypes) => {
   const path = "/token/BlueSparrow";
   const segments = currentPath.split("/");
   const extractedToken = segments[1];
-  console.log("currentPath:", currentPath);
+  // console.log("currentPath:", currentPath);
 
   const { switchNetwork, setNetworkInReduxState } = useWalletConnect();
   const { selectedTo, selectedFrom, allTokenList } = useAppSelector<any>(
@@ -366,7 +366,7 @@ const Header = (props: propTypes) => {
   const selectedChain: NetworkTypes = useSelector(
     (state: any) => state?.user?.chainValues
   );
-  console.log(selectedChain, "valuessss")
+  // console.log(selectedChain, "valuessss")
   //console.log(NETWORKS[0], "Network")
 
   const [show, setShow] = useState(false);

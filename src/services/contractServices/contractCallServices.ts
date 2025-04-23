@@ -26,7 +26,7 @@ const useGetAmountsInterval = (data:any, interval = 10000) => {
 
     const callFunction = async () => {
       const res = await getAmountsOutfunction(data);
-      console.log("getAmountsOut result:", res);
+      // console.log("getAmountsOut result:", res);
     };
 
     callFunction(); 
