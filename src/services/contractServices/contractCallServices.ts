@@ -362,9 +362,6 @@ const getAmountsOutfunction = async (data: GET_AMOUNTS_DATA) => {
       res = res2;
     }
 
-
-    console.log("res");
-    console.log(res);
     
 
     return res;
