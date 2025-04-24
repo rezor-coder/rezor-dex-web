@@ -389,8 +389,8 @@ export const callSendMethod = async (
   gasPrice:any
 ) => {
   const chainValues = store.getState()?.user?.chainValues;
-  console.log('ffsdsfsdfs');
-  console.log(chainValues);
+  // console.log('ffsdsfsdfs');
+  // console.log(chainValues);
   
   return new Promise(async (resolve, reject) => {
     try {
