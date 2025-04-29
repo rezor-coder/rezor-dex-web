@@ -105,7 +105,7 @@ const Footer = () => {
                     </div>
                   )}
                   <div className="d-block  align-items-center   ">
-                    <a href="getintouch">
+                    <a href="https://www.rezor.org/getintouch">
                       <div className="mt-3 emailContainer rounded-pill pe-2">
                       <input
                         type="button"
@@ -146,7 +146,7 @@ const Footer = () => {
                       <h2 className=" mt-md-0">Products &amp; Utilities</h2>
                       <ul className="list-unstyled mt-4 d-none d-sm-block ">
                         <li className="mt-5">
-                          <Link to="rezorwallet"
+                          <Link to="https://www.rezor.org/rezorwallet"
                             
                             className="text-decoration-none font-base"
                           >
@@ -154,8 +154,8 @@ const Footer = () => {
                           </Link>
                         </li>
                         <li className="mt-4">
-                          <a href="#" className="text-decoration-none">
-                            Rezor Swap(coming soon)
+                          <a href="/swap" className="text-decoration-none">
+                            Rezor Swap
                           </a>
                         </li>
                         <li className="mt-4">
@@ -171,7 +171,7 @@ const Footer = () => {
                       <h2 className="mt-4 mt-md-0">Resources</h2>
                       <ul className="list-unstyled mt-4 d-none d-sm-block">
                         <li className="mt-4">
-                          <a href="getintouch" className="text-decoration-none">
+                          <a href="https://www.rezor.org/getintouch" className="text-decoration-none">
                             Contact
                           </a>
                         </li>
@@ -314,7 +314,7 @@ const Footer = () => {
                   <p className="font-geist fw-semibold mb-0">
                     All rights reserved.
                     <span className="px-1">
-                      <a href="privacypolicy" className="text-decoration-none">
+                      <a href="/privacypolicy" className="text-decoration-none">
                         Privacy Policy.
                       </a>
                     </span>
@@ -373,7 +373,7 @@ const Footer = () => {
               Drop an email and get in touch with us for any queries
             </p>
             <div className="d-block  align-items-center   ">
-              <a href='/getintouch'>
+              <a href='https://www.rezor.org/getintouch'>
               <div className="mt-3 emailContainer rounded-pill pe-3">
                 <input
                   type="button"
@@ -416,7 +416,7 @@ const Footer = () => {
                 </div>
                 <ul className="collapse" id="p&u">
                   <li>
-                    <Link to="rezorwallet" className="dropdown-item">
+                    <Link to="https://www.rezor.org/rezorwallet" className="dropdown-item">
                       Rezor Wallet
                     </Link>
                   </li>
@@ -450,7 +450,7 @@ const Footer = () => {
                 <ul className="collapse" id="resources">
                   <li>
                     
-                    <a className="dropdown-item" href="getintouch">
+                    <a className="dropdown-item" href="/getintouch">
                       Contact Us
                     </a>
                   </li>
