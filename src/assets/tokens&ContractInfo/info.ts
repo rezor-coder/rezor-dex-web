@@ -270,22 +270,6 @@ export const BSC_TOKEN_LIST: TOKEN_DATA[] =
           symbol: "BNB",
           icon: BNB,
         },
-        // {
-        //   name: "RezorChain",
-        //   address: "0x19Ae49B9F38dD836317363839A5f6bfBFA7e319A",
-        //   isNative: false,
-        //   decimals: 9,
-        //   symbol: "STC",
-        //   icon: RezorChain,
-        // },
-        // {
-        //   name: "RezorChain Burn",
-        //   address: "0xe5c3029c20a0e5bba2ca778efd9cea9980f0abdc",
-        //   isNative: false,
-        //   decimals: 18,
-        //   symbol: "STCB",
-        //   icon: STB,
-        // },
         {
           name: "Mazimatic",
           address: "0x5B8650Cd999B23cF39Ab12e3213fbC8709c7f5CB",

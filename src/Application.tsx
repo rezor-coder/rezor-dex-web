@@ -25,50 +25,50 @@ const Application = () => {
           path: ROUTES.HOME,
           element: <HomePage/>,
         },
-        {
-          path: ROUTES.SWAP,
-          // index: true,
-          element: <Swap />,
-          children: [
-            {
-              index: true,
-              element: <SwapCard />,
-            },
-            {
-              path: ROUTES.REVIEWSWAP,
-              element: <ReviewSwap />,
-            },
-          ],
-        },
-        {
-          path: ROUTES.LIQUIDITY,
-          element: <Liquidity />,
-          children: [
-            {
-              index: true,
-              element: <AddLiquidity />,
-            },
-            {
-              path: ROUTES.LIQUIDITYFORM,
-              element: <LiquidityForm />,
-            },
-          ],
-        },
+      //   {
+      //     path: ROUTES.SWAP,
+      //     // index: true,
+      //     element: <Swap />,
+      //     children: [
+      //       {
+      //         index: true,
+      //         element: <SwapCard />,
+      //       },
+      //       {
+      //         path: ROUTES.REVIEWSWAP,
+      //         element: <ReviewSwap />,
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     path: ROUTES.LIQUIDITY,
+      //     element: <Liquidity />,
+      //     children: [
+      //       {
+      //         index: true,
+      //         element: <AddLiquidity />,
+      //       },
+      //       {
+      //         path: ROUTES.LIQUIDITYFORM,
+      //         element: <LiquidityForm />,
+      //       },
+      //     ],
+      //   },
        
        
        
-        {
-          path: ROUTES.TOKEN_ID,
-          element: <TokenDashboard/>,
-        },
-        {
-          path: ROUTES.EXPLORER,
-          element: <Explorer />,
-        },
-        // {
-        //   path: ROUTES.EXPLORER_ID,
-        //   element: <SwapDetails />,
-        // },
+      //   {
+      //     path: ROUTES.TOKEN_ID,
+      //     element: <TokenDashboard/>,
+      //   },
+      //   {
+      //     path: ROUTES.EXPLORER,
+      //     element: <Explorer />,
+      //   },
+      //   // {
+      //   //   path: ROUTES.EXPLORER_ID,
+      //   //   element: <SwapDetails />,
+      //   // },
       ],
     },
     {
